@@ -1,0 +1,1422 @@
+PROMPT 1 — vankaya-kura
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “వంకాయ కూర” / “Vankaya Kura / Brinjal Curry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “వంకాయ కూర”
+Subtitle exactly: “Vankaya Kura / Brinjal Curry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Brinjals (వంకాయలు) — as needed
+□ Green chillies — as needed
+□ Ginger — as needed
+□ Salt — as needed
+□ Coriander — as needed
+□ Coconut — as needed
+□ Green peas (పచ్చి బఠానీ) — as needed
+□ Onion — as needed
+□ Turmeric — as needed
+□ Oil and water — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ “చాయ్ మినప్పప్పు” — unclear ingredient
+□ Curry leaves
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 5 numbered process panels, in this exact order:
+1. Cut the brinjals thinly into roughly 2-inch pieces and keep them in water with a little salt.
+2. Grind green chilli, ginger, salt, coconut, turmeric, and onion.
+3. Heat oil and fry the tempering. Add the ground mixture and fry it briefly.
+4. Add the brinjal pieces and green peas, add water, and cook on low heat.
+5. Finish with finely chopped coriander and take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The brinjals are cooked with green peas.
+• A ground coconut, onion, chilli, and ginger mixture forms the masala.
+• The dish is finished with fresh coriander.
+Do not include a TIPS & VARIATIONS section or tips card because no tips were supplied. Leave that area as tasteful paper texture and decorative artwork.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 5 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Brinjals (వంకాయలు) — as needed; Green chillies — as needed; Ginger — as needed; Salt — as needed; Coriander — as needed; Coconut — as needed; Green peas (పచ్చి బఠానీ) — as needed; Onion — as needed; Turmeric — as needed; Oil and water — as needed; Dried red chilli; Mustard seeds; Cumin seeds; “చాయ్ మినప్పప్పు” — unclear ingredient; Curry leaves. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The tempering ingredient “చాయ్ మినప్పప్పు” is unclear and must remain labelled unclear.
+
+
+PROMPT 2 — vankaya-pachadi
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “వంకాయ పచ్చడి” / “Vankaya Pachadi / Brinjal Pachadi” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “వంకాయ పచ్చడి”
+Subtitle exactly: “Vankaya Pachadi / Brinjal Pachadi”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+PACHADI
+□ Brinjals — as needed
+□ Green chillies — as needed
+□ Salt — as needed
+□ Tamarind — as needed
+□ Turmeric — as needed
+□ Oil — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ “చాయ్ మినప్పప్పు” — unclear ingredient
+□ Raw chana dal (పచ్చిశనగపప్పు)
+□ Curry leaves
+□ Asafoetida — if available
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Roast the brinjals on the stove and place them in a bowl of water.
+2. Grind green chilli, salt, tamarind, and turmeric.
+3. Remove the brinjal stems and skin, then pulse the brinjals briefly in the mixer before transferring them to a bowl.
+4. Fry the tempering in oil. Add it to the pachadi and mix.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The brinjals are roasted before being mixed into the pachadi.
+• A short mixer pulse keeps the brinjal mixture from being fully smooth, as spoken.
+• A hot tempering is mixed in at the end.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Asafoetida is optional if available.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Brinjals — as needed; Green chillies — as needed; Salt — as needed; Tamarind — as needed; Turmeric — as needed; Oil — as needed; Dried red chilli; Mustard seeds; Cumin seeds; “చాయ్ మినప్పప్పు” — unclear ingredient; Raw chana dal (పచ్చిశనగపప్పు); Curry leaves; Asafoetida — if available. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The tempering ingredient “చాయ్ మినప్పప్పు” is unclear and must remain labelled unclear.
+
+
+PROMPT 3 — vankaya-paal-pachadi
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “వంకాయ పాల పచ్చడి” / “Vankaya Paal Pachadi / Brinjal Milk Pachadi” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “వంకాయ పాల పచ్చడి”
+Subtitle exactly: “Vankaya Paal Pachadi / Brinjal Milk Pachadi”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+PACHADI
+□ Brinjals — as needed
+□ Green chillies — as needed
+□ Onion — optional, as needed
+□ Salt and turmeric — as needed
+□ Boiled milk — as needed
+□ Oil — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ Urad dal
+□ Raw chana dal (పచ్చిశనగపప్పు)
+□ Curry leaves
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Roast the brinjals on the stove and place them in water. Chop the green chilli and optional onion finely.
+2. Add salt and turmeric. Remove the brinjal skin, add the pulp, and mix.
+3. Pour in boiled milk and stir. Keep it aside.
+4. Fry the tempering in oil, add it to the bowl, and mix.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• Roasted brinjal pulp is combined with boiled milk.
+• Optional onion is included only if wanted.
+• The recipe is finished with a dal-and-spice tempering.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Onion is optional.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Brinjals — as needed; Green chillies — as needed; Onion — optional, as needed; Salt and turmeric — as needed; Boiled milk — as needed; Oil — as needed; Dried red chilli; Mustard seeds; Cumin seeds; Urad dal; Raw chana dal (పచ్చిశనగపప్పు); Curry leaves. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 4 — kaya-vepudu
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “కాయ వేపుడు” / “Kaya Vepudu / Brinjal Fry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “కాయ వేపుడు”
+Subtitle exactly: “Kaya Vepudu / Brinjal Fry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Brinjals — as needed
+□ Onion — the same quantity/size as the brinjal pieces
+□ Oil — as needed
+□ Salt and chilli powder — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Cut the brinjals into small pieces and keep them in water. Chop the onion to the same size.
+2. Heat oil and cook the brinjal pieces. When they are cooked and soft, add the onion.
+3. Cook both together to the desired doneness. If there is too much oil, transfer some to another bowl.
+4. Add salt and chilli powder, mix, and serve.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The brinjal and onion are cut to the same size.
+• The vegetables are cooked together to the desired doneness.
+• Excess oil can be removed before seasoning.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• If there is too much oil, transfer some to another bowl.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Brinjals — as needed; Onion — the same quantity/size as the brinjal pieces; Oil — as needed; Salt and chilli powder — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 5 — gutti-vankaya
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “గుత్తి వంకాయ” / “Gutti Vankaya / Stuffed Brinjal” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “గుత్తి వంకాయ”
+Subtitle exactly: “Gutti Vankaya / Stuffed Brinjal”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+BRINJALS
+□ Small round brinjals — as needed
+
+MASALA AND COOKING
+□ Dried red chillies — as needed
+□ Cumin seeds — as needed
+□ “చాయ్ మినప్పప్పు” — unclear ingredient
+□ Mustard seeds — as needed
+□ Raw chana dal (పచ్చిశనగపప్పు) — as needed
+□ Curry leaves — as needed
+□ Tamarind — as needed
+□ Salt and oil — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 6 numbered process panels, in this exact order:
+1. Remove the stems from the small brinjals, make four slits in each, and keep them in water.
+2. Fry the dried chilli, cumin, unclear dal ingredient, mustard, chana dal, and curry leaves in oil. Set aside and grind with salt.
+3. Soak tamarind and keep the pulp ready.
+4. Stuff the ground masala into the four slits of each brinjal.
+5. Cook the stuffed brinjals in oil. Add any remaining masala and the tamarind pulp, with extra water if needed.
+6. Cook on low heat until the brinjals are done.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The masala is stuffed into four slits in each small brinjal.
+• Tamarind pulp is added while the stuffed brinjals cook.
+• The brinjals are cooked on low heat until done.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Add extra water only if needed, as spoken.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 6 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Small round brinjals — as needed; Dried red chillies — as needed; Cumin seeds — as needed; “చాయ్ మినప్పప్పు” — unclear ingredient; Mustard seeds — as needed; Raw chana dal (పచ్చిశనగపప్పు) — as needed; Curry leaves — as needed; Tamarind — as needed; Salt and oil — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The tempering/masala ingredient “చాయ్ మినప్పప్పు” is unclear and must remain labelled unclear.
+
+
+PROMPT 6 — roasted-long-brinjal
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “కాల్చిన పొడవాటి వంకాయ” / “Roasted Long Brinjal” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “కాల్చిన పొడవాటి వంకాయ”
+Subtitle exactly: “Roasted Long Brinjal”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Thick long brinjals — as needed
+□ Oil — as needed
+□ Salt and chilli powder — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 3 numbered process panels, in this exact order:
+1. Roast the long brinjals on the stove and place them in water.
+2. Remove the skin and use the pulp. Heat a little oil, add the brinjal pulp, and cook lightly with salt and chilli powder.
+3. Serve with rice.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The long brinjals are roasted before the skin is removed.
+• The soft pulp is cooked with salt and chilli powder.
+• The recording specifies serving it with rice.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Serve with rice, as spoken.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 3 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Thick long brinjals — as needed; Oil — as needed; Salt and chilli powder — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 7 — potato-coconut-curry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “బంగాళదుంప కూర” / “Potato Coconut Curry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “బంగాళదుంప కూర”
+Subtitle exactly: “Potato Coconut Curry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Potatoes — as needed
+□ Onion — as needed
+□ Fresh coconut — as needed
+□ Green chilli — as needed
+□ Ginger — as needed
+□ Coriander and curry leaves — as needed
+□ Oil and salt — as needed
+
+TEMPERING
+□ Mustard seeds
+□ “చాయ్ మినప్పప్పు” — unclear ingredient
+□ Cumin seeds
+□ Raw chana dal (పచ్చిశనగపప్పు)
+□ Dried red chilli
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 5 numbered process panels, in this exact order:
+1. Boil the potatoes. Slice the onion and chop the coconut, green chilli, ginger, coriander, and curry leaves.
+2. Peel the potatoes and cut them into small pieces or mash them.
+3. Heat oil and fry the tempering. Add onion, curry leaves, green chilli, ginger, and salt.
+4. Add coconut, then the potato pieces or mash. Cook until the curry comes together.
+5. Finish with finely chopped coriander and take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The potatoes may be left in pieces or mashed.
+• Fresh coconut is cooked with the potato mixture.
+• The curry is finished with coriander.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Use potato pieces or mashed potato, as spoken.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 5 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Potatoes — as needed; Onion — as needed; Fresh coconut — as needed; Green chilli — as needed; Ginger — as needed; Coriander and curry leaves — as needed; Oil and salt — as needed; Mustard seeds; “చాయ్ మినప్పప్పు” — unclear ingredient; Cumin seeds; Raw chana dal (పచ్చిశనగపప్పు); Dried red chilli. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The tempering ingredient “చాయ్ మినప్పప్పు” is unclear and must remain labelled unclear.
+
+
+PROMPT 8 — potato-ginger-green-chilli-curry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “బంగాళదుంప కూర” / “Potato Ginger-Green Chilli Curry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “బంగాళదుంప కూర”
+Subtitle exactly: “Potato Ginger-Green Chilli Curry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Potatoes — as needed
+□ Ginger — as needed
+□ Green chillies — as needed
+□ Coriander — as needed
+□ Salt and oil — as needed
+
+TEMPERING
+□ Cumin seeds
+□ Mustard seeds
+□ “చాయ్ మినప్పప్పు” — unclear ingredient
+□ Raw chana dal (పచ్చిశనగపప్పు)
+□ Dried red chilli
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 3 numbered process panels, in this exact order:
+1. Boil the potatoes. Grind ginger, green chilli, and salt into a paste.
+2. Heat oil and fry the tempering. Add the paste and cook it briefly.
+3. Add the boiled potatoes and cook together. Finish with finely chopped coriander.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• Ginger, green chilli, and salt are made into a paste.
+• The paste is cooked with the tempering before the potatoes are added.
+• Coriander is added at the end.
+Do not include a TIPS & VARIATIONS section or tips card because no tips were supplied. Leave that area as tasteful paper texture and decorative artwork.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 3 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Potatoes — as needed; Ginger — as needed; Green chillies — as needed; Coriander — as needed; Salt and oil — as needed; Cumin seeds; Mustard seeds; “చాయ్ మినప్పప్పు” — unclear ingredient; Raw chana dal (పచ్చిశనగపప్పు); Dried red chilli. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The tempering ingredient “చాయ్ మినప్పప్పు” is unclear and must remain labelled unclear.
+
+
+PROMPT 9 — potato-onion-fry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “బంగాళదుంప వేపుడు” / “Potato Onion Fry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “బంగాళదుంప వేపుడు”
+Subtitle exactly: “Potato Onion Fry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Potatoes — as needed
+□ Onion — as needed
+□ Oil — as needed
+□ Salt and chilli powder — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Cut the potatoes and onion into small pieces of the same size.
+2. Heat oil and fry the potatoes first. When they are partly cooked, add the onion.
+3. Fry both evenly, drain them in a slotted spoon, and let the excess oil drip away.
+4. Transfer to a bowl, add salt and chilli powder, and mix.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• Potatoes and onion are cut to the same size.
+• The potatoes go into the oil before the onion.
+• The fried pieces are drained before seasoning.
+Do not include a TIPS & VARIATIONS section or tips card because no tips were supplied. Leave that area as tasteful paper texture and decorative artwork.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Potatoes — as needed; Onion — as needed; Oil — as needed; Salt and chilli powder — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 10 — potato-curd-pachadi
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “బంగాళదుంప పెరుగు పచ్చడి” / “Potato Curd Pachadi” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “బంగాళదుంప పెరుగు పచ్చడి”
+Subtitle exactly: “Potato Curd Pachadi”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+PACHADI
+□ Potatoes — as needed
+□ Thick curd — as needed
+□ Ginger, green chilli, and coriander — as needed
+□ Salt and oil — as needed
+
+TEMPERING
+□ Mustard seeds
+□ Cumin seeds
+□ Urad dal
+□ Dried red chilli
+□ Curry leaves
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Boil the potatoes and keep them aside. Grind ginger, green chilli, and coriander.
+2. Keep the curd thick; do not add water. Break or cut the boiled potatoes and mix them into the curd.
+3. Add the green chilli, ginger, and coriander paste.
+4. Fry the tempering in oil, add it to the bowl, and mix.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The curd is kept thick without added water.
+• Boiled potato pieces are mixed into the curd.
+• The pachadi is finished with a fried tempering.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Use thick curd without adding water.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Potatoes — as needed; Thick curd — as needed; Ginger, green chilli, and coriander — as needed; Salt and oil — as needed; Mustard seeds; Cumin seeds; Urad dal; Dried red chilli; Curry leaves. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 11 — oil-less-potato-fry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “Oil-Less Potato Fry” / “Oil-Less Potato Fry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “Oil-Less Potato Fry”
+Subtitle exactly: “Oil-Less Potato Fry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Potatoes — as needed
+□ A little oil — as spoken
+□ Asafoetida — amount unclear; transcript says “1 inch”
+□ Salt and chilli powder — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 3 numbered process panels, in this exact order:
+1. Boil the potatoes and remove the skin. Cut them into small pieces.
+2. Heat a little oil with asafoetida, add the potato pieces, and mix.
+3. When they are slightly cooked, add salt and chilli powder and take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The recipe is called oil-less in the recording but uses a little oil.
+• Boiled potatoes are cut into small pieces before frying.
+• Salt and chilli powder are added after the potatoes are slightly cooked.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Use a little oil as spoken; the amount is not specified.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 3 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Potatoes — as needed; A little oil — as spoken; Asafoetida — amount unclear; transcript says “1 inch”; Salt and chilli powder — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 12 — chamadumpa-fry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “చామదుంపల వేపుడు” / “Chamadumpa Vepudu / Taro Fry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “చామదుంపల వేపుడు”
+Subtitle exactly: “Chamadumpa Vepudu / Taro Fry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Chamadumpalu / taro or colocasia (చామదుంపలు) — as needed
+□ Oil — a relatively generous amount, as spoken
+□ Salt and chilli powder — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 3 numbered process panels, in this exact order:
+1. Boil the chamadumpalu. Once cool, remove the skin.
+2. Cut them into rounds or pieces, fry them in oil, and remove them.
+3. Sprinkle with salt and chilli powder.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The chamadumpalu are boiled and cooled before peeling.
+• They may be cut into rounds or pieces.
+• Salt and chilli powder are added after frying.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Cut the boiled chamadumpalu into rounds or pieces, as spoken.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 3 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Chamadumpalu / taro or colocasia (చామదుంపలు) — as needed; Oil — a relatively generous amount, as spoken; Salt and chilli powder — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 13 — chamadumpa-pulusu
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “చామదుంపల పులుసు” / “Chamadumpa Pulusu” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “చామదుంపల పులుసు”
+Subtitle exactly: “Chamadumpa Pulusu”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+PULUSU
+□ Chamadumpalu / taro or colocasia — as needed
+□ Tamarind — as needed
+□ Jaggery — optional, to taste
+□ Chilli powder, salt, and turmeric — as needed
+□ Onion and green chilli — as needed
+□ Oil — as needed
+
+TEMPERING
+□ Mustard seeds
+□ Cumin seeds
+□ Urad dal
+□ Dried red chilli
+□ Asafoetida
+□ Fenugreek
+□ Curry leaves
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 5 numbered process panels, in this exact order:
+1. Boil the chamadumpalu and keep them aside. Soak the tamarind.
+2. Chop the onion and green chilli. Heat oil and fry the tempering, then add curry leaves, green chilli, and onion.
+3. Add the yam pieces and pour in the tamarind gravy.
+4. Add salt, chilli powder, and a little jaggery. Cook until the pulusu becomes thick.
+5. Add more jaggery only if a sweeter taste is wanted.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The pulusu is cooked until it becomes thick.
+• Jaggery is optional and can be increased only for a sweeter taste.
+• The boiled chamadumpalu are added to tamarind gravy.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Jaggery is optional and added according to desired sweetness.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 5 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Chamadumpalu / taro or colocasia — as needed; Tamarind — as needed; Jaggery — optional, to taste; Chilli powder, salt, and turmeric — as needed; Onion and green chilli — as needed; Oil — as needed; Mustard seeds; Cumin seeds; Urad dal; Dried red chilli; Asafoetida; Fenugreek; Curry leaves. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 14 — chamadumpa-curry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “చామదుంపల కూర” / “Chamadumpa Curry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “చామదుంపల కూర”
+Subtitle exactly: “Chamadumpa Curry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Chamadumpalu / taro or colocasia — as needed
+□ Oil — as needed
+□ Dried red chilli — as needed
+□ Mustard seeds, cumin seeds, and curry leaves — as needed
+□ “చాయ్ మినప్పప్పు” — unclear ingredient
+□ Salt and chilli powder — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Boil the chamadumpalu and keep them aside. Do not add green chilli.
+2. Heat oil and fry the dried chilli, mustard, cumin, curry leaves, and dal ingredients.
+3. Add the chamadumpa pieces and keep stirring until they fry well and the slime is gone.
+4. Add salt and chilli powder and take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The speaker corrects that green chilli is not used.
+• The chamadumpa pieces are stirred until the slime is gone.
+• The dish is seasoned after frying.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Do not add green chilli, according to the speaker’s correction.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Chamadumpalu / taro or colocasia — as needed; Oil — as needed; Dried red chilli — as needed; Mustard seeds, cumin seeds, and curry leaves — as needed; “చాయ్ మినప్పప్పు” — unclear ingredient; Salt and chilli powder — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The tempering ingredient “చాయ్ మినప్పప్పు” is unclear and must remain labelled unclear.
+
+
+PROMPT 15 — lemon-rice
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “నిమ్మకాయ పులిహోర” / “Nimmakaya Pulihora / Lemon Rice” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “నిమ్మకాయ పులిహోర”
+Subtitle exactly: “Nimmakaya Pulihora / Lemon Rice”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+RICE AND SOURING
+□ Rice — 1/4 kg
+□ Lemons — 3 listed; juice from 2 mentioned in the method
+□ Water — 2 measures for the rice, using the same measure as the rice
+□ Salt and turmeric — as needed
+
+TEMPERING
+□ Green chillies — as needed
+□ Curry leaves — as needed
+□ Dried red chilli — as needed
+□ Chana dal — as needed
+□ Mustard seeds and cumin seeds — as needed
+□ Oil — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 5 numbered process panels, in this exact order:
+1. Cook the rice with turmeric and some curry leaves in a pressure cooker. The number of whistles is not specified.
+2. Let the rice cool on a plate. Mix lemon juice with salt and add it to the cooled rice.
+3. Taste and adjust the salt and sourness.
+4. Fry the dried chilli, chana dal, mustard, cumin, green chilli, and curry leaves in oil.
+5. Add the tempering to the rice, mix, and serve.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The rice is cooled before the lemon-and-salt mixture is added.
+• Salt and sourness are adjusted by taste.
+• A fried chilli-and-dal tempering is mixed through the rice.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• The ingredient recording says 3 lemons; the method mentions juice from 2 lemons.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 5 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Rice — 1/4 kg; Lemons — 3 listed; juice from 2 mentioned in the method; Water — 2 measures for the rice, using the same measure as the rice; Salt and turmeric — as needed; Green chillies — as needed; Curry leaves — as needed; Dried red chilli — as needed; Chana dal — as needed; Mustard seeds and cumin seeds — as needed; Oil — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The two source recordings are a clear ingredients-and-method continuation pair.
+
+
+PROMPT 16 — plantain-moong-dal-curry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “అరటికాయ పెసరపప్పు కూర” / “Plantain Moong Dal Curry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “అరటికాయ పెసరపప్పు కూర”
+Subtitle exactly: “Plantain Moong Dal Curry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Raw bananas / plantains — as needed
+□ Moong dal — as needed
+□ Salt and turmeric — as needed
+□ Oil — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ “చాయ్ మిరపప్పు” — unclear ingredient
+□ Green chilli
+□ Curry leaves
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Cut the plantains and add the desired amount of moong dal. Boil them together.
+2. Drain them in a colander and let the water run off.
+3. Heat oil and fry the tempering. Add the drained plantain and dal.
+4. Add salt and turmeric and fry until dry. Take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• Plantain and moong dal are boiled together.
+• The cooked mixture is drained before frying.
+• The final fry is cooked until dry.
+Do not include a TIPS & VARIATIONS section or tips card because no tips were supplied. Leave that area as tasteful paper texture and decorative artwork.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Raw bananas / plantains — as needed; Moong dal — as needed; Salt and turmeric — as needed; Oil — as needed; Dried red chilli; Mustard seeds; Cumin seeds; “చాయ్ మిరపప్పు” — unclear ingredient; Green chilli; Curry leaves. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The tempering ingredient “చాయ్ మిరపప్పు” is unclear and must remain labelled unclear.
+
+
+PROMPT 17 — plantain-fry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “అరటికాయ వేపుడు” / “Plantain Fry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “అరటికాయ వేపుడు”
+Subtitle exactly: “Plantain Fry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Raw banana / plantain — as needed
+□ Oil — as needed
+□ Salt and chilli powder — as needed
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 3 numbered process panels, in this exact order:
+1. Cut the plantain into thin pieces and keep them in water.
+2. Heat oil in a small wok or pan. Drain the pieces once the water has run off and add them to the pan.
+3. Stir and cook until the pieces are tender. Add salt and chilli powder and take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The plantain is cut thinly before cooking.
+• The pieces are drained before going into the oil.
+• The fry is taken off the heat when the pieces are tender.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Use more or less oil according to preference, as spoken.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 3 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Raw banana / plantain — as needed; Oil — as needed; Salt and chilli powder — as needed. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 18 — plantain-onion-curry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “అరటికాయ కూర” / “Plantain Onion Curry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “అరటికాయ కూర”
+Subtitle exactly: “Plantain Onion Curry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Raw banana / plantain — as needed
+□ Onion — half the amount of plantain pieces
+□ Green chilli and curry leaves — as needed
+□ Oil, turmeric, and salt — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Urad dal
+□ Cumin seeds
+□ Mustard seeds
+□ Some chana dal
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 3 numbered process panels, in this exact order:
+1. Cut the plantain into thin pieces and chop the onion to half that amount.
+2. Heat oil and fry the tempering. Add green chilli, curry leaves, and onion.
+3. Add the plantain, turmeric, and salt. Stir and cook until tender.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The onion amount is described as half the amount of plantain pieces.
+• Green chilli, curry leaves, and onion are added after the tempering.
+• The plantain is cooked until tender.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Use half the amount of onion compared with the plantain pieces, as spoken.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 3 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Raw banana / plantain — as needed; Onion — half the amount of plantain pieces; Green chilli and curry leaves — as needed; Oil, turmeric, and salt — as needed; Dried red chilli; Urad dal; Cumin seeds; Mustard seeds; Some chana dal. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 19 — plantain-patodi
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “అరటికాయ పాటోడి” / “Plantain Paatodi” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “అరటికాయ పాటోడి”
+Subtitle exactly: “Plantain Paatodi”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+MAIN INGREDIENTS
+□ Raw banana / plantain — as needed
+□ Onion — about half the plantain amount
+□ Green chilli and curry leaves — as needed
+□ Oil, turmeric, and salt — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ Urad dal
+□ Raw chana dal
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 4 numbered process panels, in this exact order:
+1. Boil the plantain and keep it aside. Chop the onion into small pieces.
+2. Heat oil and fry the tempering. Add green chilli, curry leaves, and onion.
+3. Remove the plantain skin, cut the plantain into pieces, and add it to the pan.
+4. Add turmeric and salt. Mix and cook until no raw moisture remains, then take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The onion amount is described as about half the plantain amount.
+• The boiled plantain is peeled and added after the onion mixture cooks.
+• The dish is cooked until no raw moisture remains.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• “Paatodi” is preserved as spoken; no additional interpretation is added.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 4 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Raw banana / plantain — as needed; Onion — about half the plantain amount; Green chilli and curry leaves — as needed; Oil, turmeric, and salt — as needed; Dried red chilli; Mustard seeds; Cumin seeds; Urad dal; Raw chana dal. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The dish name “పాటోడి” is preserved as spoken and not translated beyond Plantain Paatodi.
+
+
+PROMPT 20 — plantain-pacchi-pulusu
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “అరటికాయ పచ్చి పులుసు” / “Plantain Pacchi Pulusu” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “అరటికాయ పచ్చి పులుసు”
+Subtitle exactly: “Plantain Pacchi Pulusu”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+PULUSU
+□ One raw banana / plantain
+□ Tamarind, including “ఇసబాగ చింతపండు” — unclear term, as needed
+□ Onion, green chilli, and curry leaves — as needed
+□ Salt and turmeric — as needed
+□ Jaggery — optional, if a sweet taste is wanted
+□ Oil — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ Urad dal
+□ Asafoetida
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 5 numbered process panels, in this exact order:
+1. Boil the plantain and keep it aside. Fry the tempering, then add green chilli, curry leaves, and onion.
+2. Prepare tamarind pulp that is neither too thin nor too thick.
+3. Remove the plantain skin and mash the plantain. Mix it into the tamarind pulp.
+4. Add the fried onion and tempering, then add salt, turmeric, and optional jaggery.
+5. Taste and serve with rice.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The tamarind pulp should be neither too thin nor too thick.
+• Boiled plantain is mashed before being mixed into the tamarind pulp.
+• The recording specifies serving it with rice.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Jaggery is optional if a sweet taste is wanted.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 5 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: One raw banana / plantain; Tamarind, including “ఇసబాగ చింతపండు” — unclear term, as needed; Onion, green chilli, and curry leaves — as needed; Salt and turmeric — as needed; Jaggery — optional, if a sweet taste is wanted; Oil — as needed; Dried red chilli; Mustard seeds; Cumin seeds; Urad dal; Asafoetida. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The term “ఇసబాగ చింతపండు” is unclear and must remain preserved as an unclear tamarind-related term.
+
+
+PROMPT 21 — tomato-dal
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “టమాటా పప్పు” / “Tomato Dal” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “టమాటా పప్పు”
+Subtitle exactly: “Tomato Dal”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+DAL
+□ Tomatoes — as needed
+□ Toor dal / kandi pappu (కందిపప్పు) — as needed
+□ Green chillies — as needed
+□ Curry leaves — as needed
+□ Salt, turmeric, and chilli powder — as needed
+□ Oil or ghee — as needed
+
+TEMPERING
+□ Mustard seeds
+□ Cumin seeds
+□ Urad dal
+□ Dried red chilli
+□ Asafoetida — if available
+□ Curry leaves
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 6 numbered process panels, in this exact order:
+1. Wash the dal and place it in a bowl with water and turmeric. Chop the tomatoes and green chillies.
+2. Put the dal bowl in the pressure cooker and place the tomato and green chilli bowl inside/on top as described in the recording.
+3. Pressure-cook for 5–6 whistles; the second recording says 6.
+4. Once cooked, remove tomato skins if needed, add the tomatoes to the dal, and place it on the stove.
+5. Heat oil or ghee and fry the tempering. Add it to the dal with salt and boil.
+6. Taste when nearly ready and take off the heat.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The two recordings describe 5–6 whistles and 6 whistles respectively.
+• Tomato skins may be removed if needed.
+• The dal is tasted when nearly ready before it is taken off the heat.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Asafoetida is included only if available.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 6 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Tomatoes — as needed; Toor dal / kandi pappu (కందిపప్పు) — as needed; Green chillies — as needed; Curry leaves — as needed; Salt, turmeric, and chilli powder — as needed; Oil or ghee — as needed; Mustard seeds; Cumin seeds; Urad dal; Dried red chilli; Asafoetida — if available; Curry leaves. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- The pressure-cooker whistle count differs between the two continuation recordings.
+
+
+PROMPT 22 — tomato-mixed-vegetable-curry
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “టమాటా కూర” / “Tomato Mixed-Vegetable Curry” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “టమాటా కూర”
+Subtitle exactly: “Tomato Mixed-Vegetable Curry”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+VEGETABLES
+□ Tomatoes — as needed
+□ Chikkudu / cluster beans (చిక్కుడు) — optional, as available
+□ “ములగ” and “ములక్కాడలు” — as spoken, amounts not specified
+□ Potatoes and onion — as needed
+□ Green chilli, curry leaves, and coriander — as needed
+
+SEASONING
+□ Oil, turmeric, chilli powder, and salt — as needed
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ Chana dal
+□ Raw chickpeas
+
+OPTIONAL VARIATION
+□ Egg — optional, as spoken
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 5 numbered process panels, in this exact order:
+1. Cut the listed vegetables into small pieces.
+2. Heat oil and fry the tempering. Add all the chopped vegetables.
+3. Add turmeric, chilli powder, and salt. Cover and cook for 2–3 “kootalu” as spoken; the exact cooking method is unclear.
+4. If it becomes too dry, add a little water and cook until it thickens.
+5. Optional: fry an egg in a little oil and cook it into the curry while some water remains.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• Any listed vegetable may be omitted, as spoken.
+• The curry is cooked until it thickens.
+• An egg variation is mentioned as optional.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Any listed vegetable may be omitted.
+• The egg variation is optional.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 5 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Tomatoes — as needed; Chikkudu / cluster beans (చిక్కుడు) — optional, as available; “ములగ” and “ములక్కాడలు” — as spoken, amounts not specified; Potatoes and onion — as needed; Green chilli, curry leaves, and coriander — as needed; Oil, turmeric, chilli powder, and salt — as needed; Dried red chilli; Mustard seeds; Cumin seeds; Chana dal; Raw chickpeas; Egg — optional, as spoken. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 23 — tomato-pachadi
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “టమాటా పచ్చడి” / “Tomato Pachadi” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “టమాటా పచ్చడి”
+Subtitle exactly: “Tomato Pachadi”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+PACHADI
+□ Tomatoes and coriander — as needed
+□ Green chillies and dried red chillies — as needed
+□ Mustard seeds, urad dal, raw chana dal, and cumin seeds — as needed
+□ Garlic — optional; the method mentions two cloves for the reserved tempering
+□ Salt, turmeric, and tamarind — as needed
+□ Oil — as needed
+□ Curry leaves — as spoken in the method
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 6 numbered process panels, in this exact order:
+1. Chop the tomatoes and coriander.
+2. Fry dried red chilli, mustard, urad dal, chana dal, cumin, and curry leaves in oil. Remove the tempering to a bowl.
+3. Add coriander and chopped tomatoes to the pan. Add a little tamarind, optional garlic, and salt, then cook.
+4. Grind the fried tempering with the green chillies, keeping some tempering and oil aside.
+5. Add the cooked tomato mixture and turmeric to the mixer and grind. Taste and adjust the salt.
+6. Mix in the reserved tempering and oil. Keep some garlic, dal, and curry leaves in the oil if desired, as spoken.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• Some tempering and oil are reserved for mixing back into the pachadi.
+• The cooked tomato mixture is ground with the fried tempering.
+• Salt is adjusted after tasting.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Garlic is optional. The method mentions keeping two cloves in the reserved tempering.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 6 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Tomatoes and coriander — as needed; Green chillies and dried red chillies — as needed; Mustard seeds, urad dal, raw chana dal, and cumin seeds — as needed; Garlic — optional; the method mentions two cloves for the reserved tempering; Salt, turmeric, and tamarind — as needed; Oil — as needed; Curry leaves — as spoken in the method. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+
+PROMPT 24 — tomato-curd-pachadi
+
+Use case: infographic-diagram
+Asset type: complete illustrated recipe-zine poster, landscape 1536x1024, three tall portrait pages side by side.
+Reference image: Attach /Users/sidslaptop/dev/recipeapp/posters/source/reference/3C2FBFB7-AA48-4AF5-8A11-7DE42F080BC7.PNG as Image 1. Image 1 is the visual/layout reference only. Match its premium editorial cookbook quality: cream paper, brush lettering, forest green/coral/mustard palette, hand-drawn doodles, taped-paper details, ingredient illustrations, numbered process panels, rich food imagery, clean hierarchy, and polished spacing. Do not copy the reference recipe, sample text, ingredients, claims, or dish.
+
+Task: Create the COMPLETE final poster for “టమాటా పెరుగు పచ్చడి” / “Tomato Curd Pachadi” in one image-generation pass. Generate the artwork and all poster text together. Do not use a separate text overlay or renderer.
+
+Text rule: The recipe text below is the only allowed recipe content. Render every supplied line exactly, legibly, and verbatim. Do not paraphrase, translate, correct, shorten, add, omit, or replace any word, Telugu character, punctuation mark, quantity, or “not specified” phrase. Do not generate gibberish, placeholder recipe text, extra slogans, or unsupported claims.
+
+PAGE 1 — COVER AND INGREDIENT MAP
+Title exactly: “టమాటా పెరుగు పచ్చడి”
+Subtitle exactly: “Tomato Curd Pachadi”
+Metadata exactly: “PREP: not specified”  “COOK: not specified”  “SERVES: not specified”
+Section heading exactly: “INGREDIENTS”
+Ingredient groups and checklist lines exactly:
+PACHADI
+□ Yogurt/curd — as needed
+□ Tomatoes — as needed
+□ Salt and turmeric — as needed
+□ Coriander — as needed
+□ Onion — optional
+□ Green chillies — optional, as needed
+□ Oil or ghee — as needed
+
+TEMPERING
+□ Dried red chilli
+□ Mustard seeds
+□ Cumin seeds
+□ Urad dal
+□ Curry leaves
+Nutrition label exactly: “ESTIMATED NUTRITION”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+PAGE 2 — STEP-BY-STEP
+Heading exactly: “STEP-BY-STEP”
+Render exactly 5 numbered process panels, in this exact order:
+1. Set the yogurt well. Cut the tomatoes into thin pieces and cook them with one drop of oil.
+2. Prepare the tempering in oil or ghee. Add dried red chilli, mustard, cumin, urad dal, and curry leaves.
+3. Add the tempering to the whisked yogurt/curd. Add salt, turmeric, and finely chopped coriander.
+4. Optional: add finely chopped onion and green chilli.
+5. Let the cooked tomatoes cool, add them to the curd mixture, and taste for salt.
+
+PAGE 3 — RECIPE NOTES
+Heading exactly: “WHY YOU’LL LOVE THIS RECIPE”
+Reasons exactly:
+• The yogurt is set and kept as the base.
+• The cooked tomatoes are cooled before being mixed into the curd.
+• Salt is checked after the final mix.
+Section heading exactly: “TIPS & VARIATIONS”
+Tips exactly:
+• Onion and green chilli are optional.
+Section heading exactly: “NUTRITION SPOTLIGHT”
+Nutrition note exactly: “Nutrition estimate unavailable — quantities and servings not specified.”
+
+Layout: Page 1 has a large appetizing finished-dish hero, title and metadata, a dense readable ingredient map with small ingredient drawings, and the nutrition note. Page 2 has exactly 5 clearly separated numbered process panels, showing only the actions and cookware in the exact steps above, with the exact step text beside each visual. Page 3 has the exact reasons and nutrition note in elegant editorial cards plus the exact supplied tips. If a section has no supplied content, omit that entire section and leave the space as tasteful paper texture/decorative artwork.
+
+Visual ingredient lock: only show these listed ingredients: Yogurt/curd — as needed; Tomatoes — as needed; Salt and turmeric — as needed; Coriander — as needed; Onion — optional; Green chillies — optional, as needed; Oil or ghee — as needed; Dried red chilli; Mustard seeds; Cumin seeds; Urad dal; Curry leaves. Any item containing “unclear” must be omitted from the artwork and must not be interpreted, translated, or replaced. Do not show any other ingredient.
+Style: premium editorial food photography blended with hand-painted gouache/watercolor and ink doodles, crisp natural food texture, sophisticated printed cookbook infographic, reference-level craft.
+Constraints: preserve all exact recipe text; no invented ingredients, quantities, steps, timings, servings, tips, benefits, storage, health claims, environmental claims, labels, logos, or watermark.
+Uncertainties to preserve exactly:
+- Ingredient quantities, serving count, and timings are not specified.
+
+

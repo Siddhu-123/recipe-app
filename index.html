@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="A warm, searchable gallery of Telugu family recipe posters."
+    />
+    <meta name="theme-color" content="#f7f2e8" />
+    <title>Amma's Table — Recipe Posters</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="./" aria-label="Amma's Table home">
+          <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+          <span class="brand-name">amma's table</span>
+        </a>
+        <div class="header-tools">
+          <a class="header-link" href="#gallery">Browse posters</a>
+          <span class="archive-count" id="archiveCount">Loading archive</span>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="pageTitle">
+          <div class="hero-copy">
+            <p class="eyebrow">Telugu family recipe archive</p>
+            <h1 id="pageTitle">Find the recipe<br /><em>you’re craving.</em></h1>
+            <p class="hero-description">
+              A growing wall of illustrated recipe posters, ready to explore by dish, ingredient,
+              or the way you would ask at the kitchen table.
+            </p>
+          </div>
+          <div class="hero-note" aria-label="Archive note">
+            <span class="hero-note-mark" aria-hidden="true">✳</span>
+            <p>Search the archive<br /><strong>like you’re asking Amma.</strong></p>
+            <span class="hero-note-line" aria-hidden="true"></span>
+          </div>
+          <div class="hero-scribble hero-scribble-left" aria-hidden="true">made with care</div>
+          <div class="hero-scribble hero-scribble-right" aria-hidden="true">24 little stories</div>
+        </section>
+
+        <section class="search-card" aria-label="Recipe search">
+          <form id="searchForm" class="search-form" role="search">
+            <div class="search-input-wrap">
+              <span class="search-icon" aria-hidden="true"></span>
+              <label class="sr-only" for="searchInput">Search recipes</label>
+              <input
+                id="searchInput"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Try “something with potato and coconut”"
+              />
+              <kbd class="search-key">/</kbd>
+              <button id="clearSearch" class="clear-search" type="button" hidden>Clear</button>
+            </div>
+            <div class="search-options">
+              <div class="mode-switch" role="group" aria-label="Search mode">
+                <button class="mode-option is-active" type="button" data-mode="smart" aria-pressed="true">
+                  <span class="mode-spark" aria-hidden="true">✦</span> Smart search
+                </button>
+                <button class="mode-option" type="button" data-mode="keyword" aria-pressed="false">
+                  Keywords
+                </button>
+              </div>
+              <span class="search-hint" id="searchHint">Understands ingredients, cooking actions, and close meanings.</span>
+            </div>
+          </form>
+          <div class="suggestion-row" aria-label="Search suggestions">
+            <span class="suggestion-label">Ask for</span>
+            <button type="button" data-query="something with brinjal and coconut">brinjal + coconut</button>
+            <button type="button" data-query="a roasted chutney">a roasted chutney</button>
+            <button type="button" data-query="potato without much oil">potato without much oil</button>
+            <button type="button" data-query="something to serve with rice">serve with rice</button>
+          </div>
+        </section>
+
+        <section class="gallery-section" id="gallery" aria-labelledby="galleryTitle">
+          <div class="gallery-heading">
+            <div>
+              <p class="section-kicker">The collection</p>
+              <h2 id="galleryTitle">All posters</h2>
+              <p id="resultsSummary" class="results-summary">Loading recipe cards…</p>
+            </div>
+            <div class="gallery-controls">
+              <label class="sort-control" for="sortSelect">
+                <span>Sort</span>
+                <select id="sortSelect">
+                  <option value="featured">Featured</option>
+                  <option value="az">A–Z</option>
+                  <option value="steps">Most steps</option>
+                </select>
+              </label>
+              <button id="densityToggle" class="icon-control" type="button" aria-pressed="false" aria-label="Use compact gallery view" title="Compact gallery view">
+                <span class="density-icon" aria-hidden="true"><i></i><i></i><i></i><i></i></span>
+              </button>
+            </div>
+          </div>
+
+          <div id="categoryBar" class="category-bar" role="group" aria-label="Filter by ingredient family"></div>
+          <div id="recipeGrid" class="recipe-grid" aria-live="polite" aria-busy="true">
+            <div class="loading-card"></div>
+            <div class="loading-card"></div>
+            <div class="loading-card"></div>
+            <div class="loading-card"></div>
+          </div>
+        </section>
+
+        <section class="search-guide" aria-labelledby="guideTitle">
+          <div>
+            <p class="section-kicker">A softer way to search</p>
+            <h2 id="guideTitle">Use your own words.</h2>
+          </div>
+          <p class="guide-copy">
+            Smart search connects everyday language to the recipe text, so “eggplant chutney”
+            can find a brinjal pachadi and “no-oil potato” can find the closest match.
+          </p>
+          <div class="guide-arrow" aria-hidden="true">↘</div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>amma's table</span>
+        <span>Recipe text preserved from the poster archive</span>
+        <a href="#pageTitle">Back to top ↑</a>
+      </footer>
+    </div>
+
+    <dialog id="recipeDialog" class="recipe-dialog" aria-labelledby="dialogTitle">
+      <div class="dialog-shell">
+        <div class="dialog-header">
+          <div>
+            <span id="dialogCategory" class="dialog-category">Recipe poster</span>
+            <h2 id="dialogTitle">Recipe</h2>
+            <p id="dialogSubtitle" class="dialog-subtitle"></p>
+          </div>
+          <button id="closeDialog" class="close-dialog" type="button" aria-label="Close recipe details">×</button>
+        </div>
+
+        <div class="dialog-layout">
+          <div class="dialog-poster-column">
+            <div class="dialog-poster-frame">
+              <img id="dialogImage" src="" alt="" />
+            </div>
+            <div class="dialog-poster-actions">
+              <a id="downloadLink" class="download-link" href="" download>
+                Download poster <span aria-hidden="true">↓</span>
+              </a>
+              <span class="poster-format">PNG · 1536 × 1024</span>
+            </div>
+          </div>
+
+          <div class="dialog-details">
+            <div id="dialogMeta" class="dialog-meta"></div>
+
+            <section class="detail-section">
+              <div class="detail-heading">
+                <span class="detail-number">01</span>
+                <h3>Ingredients</h3>
+              </div>
+              <div id="dialogIngredients" class="ingredient-groups"></div>
+            </section>
+
+            <section class="detail-section">
+              <div class="detail-heading">
+                <span class="detail-number">02</span>
+                <h3>Method</h3>
+              </div>
+              <ol id="dialogSteps" class="dialog-steps"></ol>
+            </section>
+
+            <section class="detail-section notes-section">
+              <div class="detail-heading">
+                <span class="detail-number">03</span>
+                <h3>Recipe notes</h3>
+              </div>
+              <ul id="dialogReasons" class="note-list"></ul>
+              <div id="dialogTipsWrap" class="tips-wrap" hidden>
+                <span class="tips-label">Tips & variations</span>
+                <ul id="dialogTips" class="tip-list"></ul>
+              </div>
+              <p id="dialogNutrition" class="nutrition-note"></p>
+            </section>
+          </div>
+        </div>
+      </div>
+    </dialog>
+
+    <noscript>
+      <div class="noscript-message">This gallery needs JavaScript enabled to load the recipe posters.</div>
+    </noscript>
+    <script src="./app.js" defer></script>
+  </body>
+</html>
