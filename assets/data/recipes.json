@@ -1,0 +1,1858 @@
+[
+  {
+    "number": 1,
+    "id": "vankaya-kura",
+    "slug": "vankaya-kura",
+    "titleOriginal": "వంకాయ కూర",
+    "titleEnglish": "Vankaya Kura / Brinjal Curry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "brinjal",
+    "categoryLabel": "Brinjal (వంకాయ)",
+    "categoryIcon": "🍆",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "spicy",
+      "comforting",
+      "mild"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "comfort-food",
+      "family-lunch",
+      "weekend-feast"
+    ],
+    "badge": "Amma’s Classic",
+    "storyNote": "Tender brinjals slow-simmered with sweet green peas and a fresh ground coconut-chilli masala.",
+    "teluguTerms": [
+      "వంకాయ",
+      "కూర",
+      "బఠానీ",
+      "కొబ్బరి",
+      "మసాలా"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Brinjals (వంకాయలు) — as needed",
+          "Green chillies — as needed",
+          "Ginger — as needed",
+          "Salt — as needed",
+          "Coriander — as needed",
+          "Coconut — as needed",
+          "Green peas (పచ్చి బఠానీ) — as needed",
+          "Onion — as needed",
+          "Turmeric — as needed",
+          "Oil and water — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "“చాయ్ మినప్పప్పు” — unclear ingredient",
+          "Curry leaves"
+        ]
+      }
+    ],
+    "steps": [
+      "Cut the brinjals thinly into roughly 2-inch pieces and keep them in water with a little salt.",
+      "Grind green chilli, ginger, salt, coconut, turmeric, and onion.",
+      "Heat oil and fry the tempering. Add the ground mixture and fry it briefly.",
+      "Add the brinjal pieces and green peas, add water, and cook on low heat.",
+      "Finish with finely chopped coriander and take off the heat."
+    ],
+    "reasons": [
+      "The brinjals are cooked with green peas.",
+      "A ground coconut, onion, chilli, and ginger mixture forms the masala.",
+      "The dish is finished with fresh coriander."
+    ],
+    "tips": [],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/vankaya-kura.png",
+      "webp": "assets/images/webp/vankaya-kura.webp",
+      "thumb": "assets/images/webp/vankaya-kura-thumb.webp"
+    },
+    "searchHaystack": "vankaya-kura vankaya-kura వంకాయ కూర vankaya kura / brinjal curry brinjal brinjal (వంకాయ) curry amma’s classic tender brinjals slow-simmered with sweet green peas and a fresh ground coconut-chilli masala. spicy comforting mild vegetarian gluten-free vegan comfort-food family-lunch weekend-feast వంకాయ కూర బఠానీ కొబ్బరి మసాలా brinjals (వంకాయలు) — as needed green chillies — as needed ginger — as needed salt — as needed coriander — as needed coconut — as needed green peas (పచ్చి బఠానీ) — as needed onion — as needed turmeric — as needed oil and water — as needed dried red chilli mustard seeds cumin seeds “చాయ్ మినప్పప్పు” — unclear ingredient curry leaves cut the brinjals thinly into roughly 2-inch pieces and keep them in water with a little salt. grind green chilli, ginger, salt, coconut, turmeric, and onion. heat oil and fry the tempering. add the ground mixture and fry it briefly. add the brinjal pieces and green peas, add water, and cook on low heat. finish with finely chopped coriander and take off the heat. the brinjals are cooked with green peas. a ground coconut, onion, chilli, and ginger mixture forms the masala. the dish is finished with fresh coriander. "
+  },
+  {
+    "number": 2,
+    "id": "vankaya-pachadi",
+    "slug": "vankaya-pachadi",
+    "titleOriginal": "వంకాయ పచ్చడి",
+    "titleEnglish": "Vankaya Pachadi / Brinjal Pachadi",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "brinjal",
+    "categoryLabel": "Brinjal (వంకాయ)",
+    "categoryIcon": "🍆",
+    "prepStyle": "pachadi",
+    "flavorProfile": [
+      "smoky",
+      "tangy",
+      "spicy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "rainy-day",
+      "comfort-food",
+      "rice-side"
+    ],
+    "badge": "Fire-Smoked",
+    "storyNote": "Direct-flame charred eggplants mashed with pungent green chillies and fragrant tempering.",
+    "teluguTerms": [
+      "వంకాయ",
+      "పచ్చడి",
+      "కాల్చిన",
+      "చింతపండు",
+      "రోటి పచ్చడి"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "PACHADI",
+        "items": [
+          "Brinjals — as needed",
+          "Green chillies — as needed",
+          "Salt — as needed",
+          "Tamarind — as needed",
+          "Turmeric — as needed",
+          "Oil — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "“చాయ్ మినప్పప్పు” — unclear ingredient",
+          "Raw chana dal (పచ్చిశనగపప్పు)",
+          "Curry leaves",
+          "Asafoetida — if available"
+        ]
+      }
+    ],
+    "steps": [
+      "Roast the brinjals on the stove and place them in a bowl of water.",
+      "Grind green chilli, salt, tamarind, and turmeric.",
+      "Remove the brinjal stems and skin, then pulse the brinjals briefly in the mixer before transferring them to a bowl.",
+      "Fry the tempering in oil. Add it to the pachadi and mix."
+    ],
+    "reasons": [
+      "The brinjals are roasted before being mixed into the pachadi.",
+      "A short mixer pulse keeps the brinjal mixture from being fully smooth, as spoken.",
+      "A hot tempering is mixed in at the end."
+    ],
+    "tips": [
+      "Asafoetida is optional if available."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/vankaya-pachadi.png",
+      "webp": "assets/images/webp/vankaya-pachadi.webp",
+      "thumb": "assets/images/webp/vankaya-pachadi-thumb.webp"
+    },
+    "searchHaystack": "vankaya-pachadi vankaya-pachadi వంకాయ పచ్చడి vankaya pachadi / brinjal pachadi brinjal brinjal (వంకాయ) pachadi fire-smoked direct-flame charred eggplants mashed with pungent green chillies and fragrant tempering. smoky tangy spicy vegetarian gluten-free vegan rainy-day comfort-food rice-side వంకాయ పచ్చడి కాల్చిన చింతపండు రోటి పచ్చడి brinjals — as needed green chillies — as needed salt — as needed tamarind — as needed turmeric — as needed oil — as needed dried red chilli mustard seeds cumin seeds “చాయ్ మినప్పప్పు” — unclear ingredient raw chana dal (పచ్చిశనగపప్పు) curry leaves asafoetida — if available roast the brinjals on the stove and place them in a bowl of water. grind green chilli, salt, tamarind, and turmeric. remove the brinjal stems and skin, then pulse the brinjals briefly in the mixer before transferring them to a bowl. fry the tempering in oil. add it to the pachadi and mix. the brinjals are roasted before being mixed into the pachadi. a short mixer pulse keeps the brinjal mixture from being fully smooth, as spoken. a hot tempering is mixed in at the end. asafoetida is optional if available."
+  },
+  {
+    "number": 3,
+    "id": "vankaya-paal-pachadi",
+    "slug": "vankaya-paal-pachadi",
+    "titleOriginal": "వంకాయ పాల పచ్చడి",
+    "titleEnglish": "Vankaya Paal Pachadi / Brinjal Milk Pachadi",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "brinjal",
+    "categoryLabel": "Brinjal (వంకాయ)",
+    "categoryIcon": "🍆",
+    "prepStyle": "pachadi",
+    "flavorProfile": [
+      "creamy",
+      "mild",
+      "comforting"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "moodTags": [
+      "cooling",
+      "light-meal",
+      "comfort-food"
+    ],
+    "badge": "Royal Heirloom",
+    "storyNote": "A soothing coastal Andhra specialty gently finished with boiled whole milk for subtle luxury.",
+    "teluguTerms": [
+      "పాల పచ్చడి",
+      "పాలు",
+      "వంకాయ",
+      "కమ్మని"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "PACHADI",
+        "items": [
+          "Brinjals — as needed",
+          "Green chillies — as needed",
+          "Onion — optional, as needed",
+          "Salt and turmeric — as needed",
+          "Boiled milk — as needed",
+          "Oil — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "Urad dal",
+          "Raw chana dal (పచ్చిశనగపప్పు)",
+          "Curry leaves"
+        ]
+      }
+    ],
+    "steps": [
+      "Roast the brinjals on the stove and place them in water. Chop the green chilli and optional onion finely.",
+      "Add salt and turmeric. Remove the brinjal skin, add the pulp, and mix.",
+      "Pour in boiled milk and stir. Keep it aside.",
+      "Fry the tempering in oil, add it to the bowl, and mix."
+    ],
+    "reasons": [
+      "Roasted brinjal pulp is combined with boiled milk.",
+      "Optional onion is included only if wanted.",
+      "The recipe is finished with a dal-and-spice tempering."
+    ],
+    "tips": [
+      "Onion is optional."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/vankaya-paal-pachadi.png",
+      "webp": "assets/images/webp/vankaya-paal-pachadi.webp",
+      "thumb": "assets/images/webp/vankaya-paal-pachadi-thumb.webp"
+    },
+    "searchHaystack": "vankaya-paal-pachadi vankaya-paal-pachadi వంకాయ పాల పచ్చడి vankaya paal pachadi / brinjal milk pachadi brinjal brinjal (వంకాయ) pachadi royal heirloom a soothing coastal andhra specialty gently finished with boiled whole milk for subtle luxury. creamy mild comforting vegetarian gluten-free cooling light-meal comfort-food పాల పచ్చడి పాలు వంకాయ కమ్మని brinjals — as needed green chillies — as needed onion — optional, as needed salt and turmeric — as needed boiled milk — as needed oil — as needed dried red chilli mustard seeds cumin seeds urad dal raw chana dal (పచ్చిశనగపప్పు) curry leaves roast the brinjals on the stove and place them in water. chop the green chilli and optional onion finely. add salt and turmeric. remove the brinjal skin, add the pulp, and mix. pour in boiled milk and stir. keep it aside. fry the tempering in oil, add it to the bowl, and mix. roasted brinjal pulp is combined with boiled milk. optional onion is included only if wanted. the recipe is finished with a dal-and-spice tempering. onion is optional."
+  },
+  {
+    "number": 4,
+    "id": "kaya-vepudu",
+    "slug": "vankaya-vepudu",
+    "titleOriginal": "కాయ వేపుడు",
+    "titleEnglish": "Kaya Vepudu / Brinjal Fry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "brinjal",
+    "categoryLabel": "Brinjal (వంకాయ)",
+    "categoryIcon": "🍆",
+    "prepStyle": "fry",
+    "flavorProfile": [
+      "crispy",
+      "spicy",
+      "savory"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "crispy-craving",
+      "rice-side",
+      "quick-lunch"
+    ],
+    "badge": "Crispy Gold",
+    "storyNote": "Finely sliced purple brinjals caramelized over medium heat with sweet red onions.",
+    "teluguTerms": [
+      "వేపుడు",
+      "ఉల్లిపాయ",
+      "వంకాయ",
+      "కరకరలాడే"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Brinjals — as needed",
+          "Onion — the same quantity/size as the brinjal pieces",
+          "Oil — as needed",
+          "Salt and chilli powder — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Cut the brinjals into small pieces and keep them in water. Chop the onion to the same size.",
+      "Heat oil and cook the brinjal pieces. When they are cooked and soft, add the onion.",
+      "Cook both together to the desired doneness. If there is too much oil, transfer some to another bowl.",
+      "Add salt and chilli powder, mix, and serve."
+    ],
+    "reasons": [
+      "The brinjal and onion are cut to the same size.",
+      "The vegetables are cooked together to the desired doneness.",
+      "Excess oil can be removed before seasoning."
+    ],
+    "tips": [
+      "If there is too much oil, transfer some to another bowl."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/vankaya-vepudu.png",
+      "webp": "assets/images/webp/vankaya-vepudu.webp",
+      "thumb": "assets/images/webp/vankaya-vepudu-thumb.webp"
+    },
+    "searchHaystack": "kaya-vepudu vankaya-vepudu కాయ వేపుడు kaya vepudu / brinjal fry brinjal brinjal (వంకాయ) fry crispy gold finely sliced purple brinjals caramelized over medium heat with sweet red onions. crispy spicy savory vegetarian gluten-free vegan crispy-craving rice-side quick-lunch వేపుడు ఉల్లిపాయ వంకాయ కరకరలాడే brinjals — as needed onion — the same quantity/size as the brinjal pieces oil — as needed salt and chilli powder — as needed cut the brinjals into small pieces and keep them in water. chop the onion to the same size. heat oil and cook the brinjal pieces. when they are cooked and soft, add the onion. cook both together to the desired doneness. if there is too much oil, transfer some to another bowl. add salt and chilli powder, mix, and serve. the brinjal and onion are cut to the same size. the vegetables are cooked together to the desired doneness. excess oil can be removed before seasoning. if there is too much oil, transfer some to another bowl."
+  },
+  {
+    "number": 5,
+    "id": "gutti-vankaya",
+    "slug": "gutti-vankaya",
+    "titleOriginal": "గుత్తి వంకాయ",
+    "titleEnglish": "Gutti Vankaya / Stuffed Brinjal",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "brinjal",
+    "categoryLabel": "Brinjal (వంకాయ)",
+    "categoryIcon": "🍆",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "rich",
+      "spicy",
+      "festive",
+      "savory"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "weekend-feast",
+      "celebration",
+      "dinner-party"
+    ],
+    "badge": "Crown Jewel",
+    "storyNote": "Small tender brinjals cross-slit and generously stuffed with Amma’s aromatic roasted spice blend.",
+    "teluguTerms": [
+      "గుత్తి వంకాయ",
+      "మసాలా",
+      "కూర",
+      "పండుగ"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "BRINJALS",
+        "items": [
+          "Small round brinjals — as needed"
+        ]
+      },
+      {
+        "name": "MASALA AND COOKING",
+        "items": [
+          "Dried red chillies — as needed",
+          "Cumin seeds — as needed",
+          "“చాయ్ మినప్పప్పు” — unclear ingredient",
+          "Mustard seeds — as needed",
+          "Raw chana dal (పచ్చిశనగపప్పు) — as needed",
+          "Curry leaves — as needed",
+          "Tamarind — as needed",
+          "Salt and oil — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Remove the stems from the small brinjals, make four slits in each, and keep them in water.",
+      "Fry the dried chilli, cumin, unclear dal ingredient, mustard, chana dal, and curry leaves in oil. Set aside and grind with salt.",
+      "Soak tamarind and keep the pulp ready.",
+      "Stuff the ground masala into the four slits of each brinjal.",
+      "Cook the stuffed brinjals in oil. Add any remaining masala and the tamarind pulp, with extra water if needed.",
+      "Cook on low heat until the brinjals are done."
+    ],
+    "reasons": [
+      "The masala is stuffed into four slits in each small brinjal.",
+      "Tamarind pulp is added while the stuffed brinjals cook.",
+      "The brinjals are cooked on low heat until done."
+    ],
+    "tips": [
+      "Add extra water only if needed, as spoken."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/gutti-vankaya.png",
+      "webp": "assets/images/webp/gutti-vankaya.webp",
+      "thumb": "assets/images/webp/gutti-vankaya-thumb.webp"
+    },
+    "searchHaystack": "gutti-vankaya gutti-vankaya గుత్తి వంకాయ gutti vankaya / stuffed brinjal brinjal brinjal (వంకాయ) curry crown jewel small tender brinjals cross-slit and generously stuffed with amma’s aromatic roasted spice blend. rich spicy festive savory vegetarian gluten-free vegan weekend-feast celebration dinner-party గుత్తి వంకాయ మసాలా కూర పండుగ small round brinjals — as needed dried red chillies — as needed cumin seeds — as needed “చాయ్ మినప్పప్పు” — unclear ingredient mustard seeds — as needed raw chana dal (పచ్చిశనగపప్పు) — as needed curry leaves — as needed tamarind — as needed salt and oil — as needed remove the stems from the small brinjals, make four slits in each, and keep them in water. fry the dried chilli, cumin, unclear dal ingredient, mustard, chana dal, and curry leaves in oil. set aside and grind with salt. soak tamarind and keep the pulp ready. stuff the ground masala into the four slits of each brinjal. cook the stuffed brinjals in oil. add any remaining masala and the tamarind pulp, with extra water if needed. cook on low heat until the brinjals are done. the masala is stuffed into four slits in each small brinjal. tamarind pulp is added while the stuffed brinjals cook. the brinjals are cooked on low heat until done. add extra water only if needed, as spoken."
+  },
+  {
+    "number": 6,
+    "id": "roasted-long-brinjal",
+    "slug": "roasted-long-brinjal",
+    "titleOriginal": "కాల్చిన పొడవాటి వంకాయ",
+    "titleEnglish": "Roasted Long Brinjal",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "brinjal",
+    "categoryLabel": "Brinjal (వంకాయ)",
+    "categoryIcon": "🍆",
+    "prepStyle": "pachadi",
+    "flavorProfile": [
+      "smoky",
+      "spicy",
+      "tangy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "smoky-craving",
+      "comfort-food",
+      "rice-side"
+    ],
+    "badge": "Fire-Roasted",
+    "storyNote": "Long purple brinjal roasted over flame until skins blister and flesh turns silky and smoky.",
+    "teluguTerms": [
+      "పొడుగు వంకాయ",
+      "కాల్చిన",
+      "పచ్చడి"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Thick long brinjals — as needed",
+          "Oil — as needed",
+          "Salt and chilli powder — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Roast the long brinjals on the stove and place them in water.",
+      "Remove the skin and use the pulp. Heat a little oil, add the brinjal pulp, and cook lightly with salt and chilli powder.",
+      "Serve with rice."
+    ],
+    "reasons": [
+      "The long brinjals are roasted before the skin is removed.",
+      "The soft pulp is cooked with salt and chilli powder.",
+      "The recording specifies serving it with rice."
+    ],
+    "tips": [
+      "Serve with rice, as spoken."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/roasted-long-brinjal.png",
+      "webp": "assets/images/webp/roasted-long-brinjal.webp",
+      "thumb": "assets/images/webp/roasted-long-brinjal-thumb.webp"
+    },
+    "searchHaystack": "roasted-long-brinjal roasted-long-brinjal కాల్చిన పొడవాటి వంకాయ roasted long brinjal brinjal brinjal (వంకాయ) pachadi fire-roasted long purple brinjal roasted over flame until skins blister and flesh turns silky and smoky. smoky spicy tangy vegetarian gluten-free vegan smoky-craving comfort-food rice-side పొడుగు వంకాయ కాల్చిన పచ్చడి thick long brinjals — as needed oil — as needed salt and chilli powder — as needed roast the long brinjals on the stove and place them in water. remove the skin and use the pulp. heat a little oil, add the brinjal pulp, and cook lightly with salt and chilli powder. serve with rice. the long brinjals are roasted before the skin is removed. the soft pulp is cooked with salt and chilli powder. the recording specifies serving it with rice. serve with rice, as spoken."
+  },
+  {
+    "number": 7,
+    "id": "potato-coconut-curry",
+    "slug": "potato-coconut-curry",
+    "titleOriginal": "బంగాళదుంప కూర",
+    "titleEnglish": "Potato Coconut Curry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "potato",
+    "categoryLabel": "Potato (బంగాళదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "creamy",
+      "comforting",
+      "savory"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "comfort-food",
+      "family-dinner",
+      "rainy-day"
+    ],
+    "badge": "Comfort Hug",
+    "storyNote": "Fork-tender potatoes bathed in a fragrant freshly grated coconut and coriander broth.",
+    "teluguTerms": [
+      "బంగాళదుంప",
+      "కొబ్బరి",
+      "కూర",
+      "ఆలూ"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Potatoes — as needed",
+          "Onion — as needed",
+          "Fresh coconut — as needed",
+          "Green chilli — as needed",
+          "Ginger — as needed",
+          "Coriander and curry leaves — as needed",
+          "Oil and salt — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Mustard seeds",
+          "“చాయ్ మినప్పప్పు” — unclear ingredient",
+          "Cumin seeds",
+          "Raw chana dal (పచ్చిశనగపప్పు)",
+          "Dried red chilli"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the potatoes. Slice the onion and chop the coconut, green chilli, ginger, coriander, and curry leaves.",
+      "Peel the potatoes and cut them into small pieces or mash them.",
+      "Heat oil and fry the tempering. Add onion, curry leaves, green chilli, ginger, and salt.",
+      "Add coconut, then the potato pieces or mash. Cook until the curry comes together.",
+      "Finish with finely chopped coriander and take off the heat."
+    ],
+    "reasons": [
+      "The potatoes may be left in pieces or mashed.",
+      "Fresh coconut is cooked with the potato mixture.",
+      "The curry is finished with coriander."
+    ],
+    "tips": [
+      "Use potato pieces or mashed potato, as spoken."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/potato-coconut-curry.png",
+      "webp": "assets/images/webp/potato-coconut-curry.webp",
+      "thumb": "assets/images/webp/potato-coconut-curry-thumb.webp"
+    },
+    "searchHaystack": "potato-coconut-curry potato-coconut-curry బంగాళదుంప కూర potato coconut curry potato potato (బంగాళదుంప) curry comfort hug fork-tender potatoes bathed in a fragrant freshly grated coconut and coriander broth. creamy comforting savory vegetarian gluten-free vegan comfort-food family-dinner rainy-day బంగాళదుంప కొబ్బరి కూర ఆలూ potatoes — as needed onion — as needed fresh coconut — as needed green chilli — as needed ginger — as needed coriander and curry leaves — as needed oil and salt — as needed mustard seeds “చాయ్ మినప్పప్పు” — unclear ingredient cumin seeds raw chana dal (పచ్చిశనగపప్పు) dried red chilli boil the potatoes. slice the onion and chop the coconut, green chilli, ginger, coriander, and curry leaves. peel the potatoes and cut them into small pieces or mash them. heat oil and fry the tempering. add onion, curry leaves, green chilli, ginger, and salt. add coconut, then the potato pieces or mash. cook until the curry comes together. finish with finely chopped coriander and take off the heat. the potatoes may be left in pieces or mashed. fresh coconut is cooked with the potato mixture. the curry is finished with coriander. use potato pieces or mashed potato, as spoken."
+  },
+  {
+    "number": 8,
+    "id": "potato-ginger-green-chilli-curry",
+    "slug": "potato-ginger-green-chilli-curry",
+    "titleOriginal": "బంగాళదుంప కూర",
+    "titleEnglish": "Potato Ginger-Green Chilli Curry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "potato",
+    "categoryLabel": "Potato (బంగాళదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "fiery",
+      "spicy",
+      "zingy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "rainy-day",
+      "bold-flavors",
+      "weekend-feast"
+    ],
+    "badge": "Spicy Zing",
+    "storyNote": "Bold ginger paste and fiery green chillies infused into crushed golden potatoes.",
+    "teluguTerms": [
+      "అల్లం",
+      "పచ్చిమిర్చి",
+      "బంగాళదుంప",
+      "ఘాటైన"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Potatoes — as needed",
+          "Ginger — as needed",
+          "Green chillies — as needed",
+          "Coriander — as needed",
+          "Salt and oil — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Cumin seeds",
+          "Mustard seeds",
+          "“చాయ్ మినప్పప్పు” — unclear ingredient",
+          "Raw chana dal (పచ్చిశనగపప్పు)",
+          "Dried red chilli"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the potatoes. Grind ginger, green chilli, and salt into a paste.",
+      "Heat oil and fry the tempering. Add the paste and cook it briefly.",
+      "Add the boiled potatoes and cook together. Finish with finely chopped coriander."
+    ],
+    "reasons": [
+      "Ginger, green chilli, and salt are made into a paste.",
+      "The paste is cooked with the tempering before the potatoes are added.",
+      "Coriander is added at the end."
+    ],
+    "tips": [],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/potato-ginger-green-chilli-curry.png",
+      "webp": "assets/images/webp/potato-ginger-green-chilli-curry.webp",
+      "thumb": "assets/images/webp/potato-ginger-green-chilli-curry-thumb.webp"
+    },
+    "searchHaystack": "potato-ginger-green-chilli-curry potato-ginger-green-chilli-curry బంగాళదుంప కూర potato ginger-green chilli curry potato potato (బంగాళదుంప) curry spicy zing bold ginger paste and fiery green chillies infused into crushed golden potatoes. fiery spicy zingy vegetarian gluten-free vegan rainy-day bold-flavors weekend-feast అల్లం పచ్చిమిర్చి బంగాళదుంప ఘాటైన potatoes — as needed ginger — as needed green chillies — as needed coriander — as needed salt and oil — as needed cumin seeds mustard seeds “చాయ్ మినప్పప్పు” — unclear ingredient raw chana dal (పచ్చిశనగపప్పు) dried red chilli boil the potatoes. grind ginger, green chilli, and salt into a paste. heat oil and fry the tempering. add the paste and cook it briefly. add the boiled potatoes and cook together. finish with finely chopped coriander. ginger, green chilli, and salt are made into a paste. the paste is cooked with the tempering before the potatoes are added. coriander is added at the end. "
+  },
+  {
+    "number": 9,
+    "id": "potato-onion-fry",
+    "slug": "potato-onion-fry",
+    "titleOriginal": "బంగాళదుంప వేపుడు",
+    "titleEnglish": "Potato Onion Fry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "potato",
+    "categoryLabel": "Potato (బంగాళదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "fry",
+    "flavorProfile": [
+      "crispy",
+      "savory",
+      "spicy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "crispy-craving",
+      "kids-favorite",
+      "comfort-food"
+    ],
+    "badge": "All-Time Favorite",
+    "storyNote": "Golden-crusted potato cubes fried crisp with caramelized onions and curry leaves.",
+    "teluguTerms": [
+      "బంగాళదుంప",
+      "వేపుడు",
+      "ఆలూ ఫ్రై",
+      "ఉల్లిపాయ"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Potatoes — as needed",
+          "Onion — as needed",
+          "Oil — as needed",
+          "Salt and chilli powder — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Cut the potatoes and onion into small pieces of the same size.",
+      "Heat oil and fry the potatoes first. When they are partly cooked, add the onion.",
+      "Fry both evenly, drain them in a slotted spoon, and let the excess oil drip away.",
+      "Transfer to a bowl, add salt and chilli powder, and mix."
+    ],
+    "reasons": [
+      "Potatoes and onion are cut to the same size.",
+      "The potatoes go into the oil before the onion.",
+      "The fried pieces are drained before seasoning."
+    ],
+    "tips": [],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/potato-onion-fry.png",
+      "webp": "assets/images/webp/potato-onion-fry.webp",
+      "thumb": "assets/images/webp/potato-onion-fry-thumb.webp"
+    },
+    "searchHaystack": "potato-onion-fry potato-onion-fry బంగాళదుంప వేపుడు potato onion fry potato potato (బంగాళదుంప) fry all-time favorite golden-crusted potato cubes fried crisp with caramelized onions and curry leaves. crispy savory spicy vegetarian gluten-free vegan crispy-craving kids-favorite comfort-food బంగాళదుంప వేపుడు ఆలూ ఫ్రై ఉల్లిపాయ potatoes — as needed onion — as needed oil — as needed salt and chilli powder — as needed cut the potatoes and onion into small pieces of the same size. heat oil and fry the potatoes first. when they are partly cooked, add the onion. fry both evenly, drain them in a slotted spoon, and let the excess oil drip away. transfer to a bowl, add salt and chilli powder, and mix. potatoes and onion are cut to the same size. the potatoes go into the oil before the onion. the fried pieces are drained before seasoning. "
+  },
+  {
+    "number": 10,
+    "id": "potato-curd-pachadi",
+    "slug": "potato-curd-pachadi",
+    "titleOriginal": "బంగాళదుంప పెరుగు పచ్చడి",
+    "titleEnglish": "Potato Curd Pachadi",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "potato",
+    "categoryLabel": "Potato (బంగాళదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "pachadi",
+    "flavorProfile": [
+      "cooling",
+      "creamy",
+      "tangy",
+      "mild"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "moodTags": [
+      "cooling",
+      "summer-lunch",
+      "probiotic"
+    ],
+    "badge": "Soothing Cool",
+    "storyNote": "Chilled creamy yogurt folded into boiled potato cubes with mustard-cumin tadka.",
+    "teluguTerms": [
+      "పెరుగు పచ్చడి",
+      "పెరుగు",
+      "ఆలూ రైతా",
+      "చల్లని"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "PACHADI",
+        "items": [
+          "Potatoes — as needed",
+          "Thick curd — as needed",
+          "Ginger, green chilli, and coriander — as needed",
+          "Salt and oil — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Mustard seeds",
+          "Cumin seeds",
+          "Urad dal",
+          "Dried red chilli",
+          "Curry leaves"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the potatoes and keep them aside. Grind ginger, green chilli, and coriander.",
+      "Keep the curd thick; do not add water. Break or cut the boiled potatoes and mix them into the curd.",
+      "Add the green chilli, ginger, and coriander paste.",
+      "Fry the tempering in oil, add it to the bowl, and mix."
+    ],
+    "reasons": [
+      "The curd is kept thick without added water.",
+      "Boiled potato pieces are mixed into the curd.",
+      "The pachadi is finished with a fried tempering."
+    ],
+    "tips": [
+      "Use thick curd without adding water."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/potato-curd-pachadi.png",
+      "webp": "assets/images/webp/potato-curd-pachadi.webp",
+      "thumb": "assets/images/webp/potato-curd-pachadi-thumb.webp"
+    },
+    "searchHaystack": "potato-curd-pachadi potato-curd-pachadi బంగాళదుంప పెరుగు పచ్చడి potato curd pachadi potato potato (బంగాళదుంప) pachadi soothing cool chilled creamy yogurt folded into boiled potato cubes with mustard-cumin tadka. cooling creamy tangy mild vegetarian gluten-free cooling summer-lunch probiotic పెరుగు పచ్చడి పెరుగు ఆలూ రైతా చల్లని potatoes — as needed thick curd — as needed ginger, green chilli, and coriander — as needed salt and oil — as needed mustard seeds cumin seeds urad dal dried red chilli curry leaves boil the potatoes and keep them aside. grind ginger, green chilli, and coriander. keep the curd thick; do not add water. break or cut the boiled potatoes and mix them into the curd. add the green chilli, ginger, and coriander paste. fry the tempering in oil, add it to the bowl, and mix. the curd is kept thick without added water. boiled potato pieces are mixed into the curd. the pachadi is finished with a fried tempering. use thick curd without adding water."
+  },
+  {
+    "number": 11,
+    "id": "oil-less-potato-fry",
+    "slug": "oil-less-potato-fry",
+    "titleOriginal": "Oil-Less Potato Fry",
+    "titleEnglish": "Oil-Less Potato Fry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "potato",
+    "categoryLabel": "Potato (బంగాళదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "fry",
+    "flavorProfile": [
+      "healthy",
+      "savory",
+      "mild"
+    ],
+    "dietary": [
+      "low-oil",
+      "vegetarian",
+      "gluten-free",
+      "vegan",
+      "guilt-free"
+    ],
+    "moodTags": [
+      "healthy-living",
+      "light-meal",
+      "diet-friendly"
+    ],
+    "badge": "Zero-Oil Magic",
+    "storyNote": "Amma’s ingenious technique: steam-roasting spiced potatoes with virtually zero oil.",
+    "teluguTerms": [
+      "నూనె లేని",
+      "తక్కువ నూనె",
+      "ఆలూ ఫ్రై"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Potatoes — as needed",
+          "A little oil — as spoken",
+          "Asafoetida — amount unclear; transcript says “1 inch”",
+          "Salt and chilli powder — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the potatoes and remove the skin. Cut them into small pieces.",
+      "Heat a little oil with asafoetida, add the potato pieces, and mix.",
+      "When they are slightly cooked, add salt and chilli powder and take off the heat."
+    ],
+    "reasons": [
+      "The recipe is called oil-less in the recording but uses a little oil.",
+      "Boiled potatoes are cut into small pieces before frying.",
+      "Salt and chilli powder are added after the potatoes are slightly cooked."
+    ],
+    "tips": [
+      "Use a little oil as spoken; the amount is not specified."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/oil-less-potato-fry.png",
+      "webp": "assets/images/webp/oil-less-potato-fry.webp",
+      "thumb": "assets/images/webp/oil-less-potato-fry-thumb.webp"
+    },
+    "searchHaystack": "oil-less-potato-fry oil-less-potato-fry oil-less potato fry oil-less potato fry potato potato (బంగాళదుంప) fry zero-oil magic amma’s ingenious technique: steam-roasting spiced potatoes with virtually zero oil. healthy savory mild low-oil vegetarian gluten-free vegan guilt-free healthy-living light-meal diet-friendly నూనె లేని తక్కువ నూనె ఆలూ ఫ్రై potatoes — as needed a little oil — as spoken asafoetida — amount unclear; transcript says “1 inch” salt and chilli powder — as needed boil the potatoes and remove the skin. cut them into small pieces. heat a little oil with asafoetida, add the potato pieces, and mix. when they are slightly cooked, add salt and chilli powder and take off the heat. the recipe is called oil-less in the recording but uses a little oil. boiled potatoes are cut into small pieces before frying. salt and chilli powder are added after the potatoes are slightly cooked. use a little oil as spoken; the amount is not specified."
+  },
+  {
+    "number": 12,
+    "id": "chamadumpa-fry",
+    "slug": "chamadumpa-fry",
+    "titleOriginal": "చామదుంపల వేపుడు",
+    "titleEnglish": "Chamadumpa Vepudu / Taro Fry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "taro",
+    "categoryLabel": "Taro (చామదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "fry",
+    "flavorProfile": [
+      "crispy",
+      "savory",
+      "spicy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "crispy-craving",
+      "rice-side",
+      "weekend-special"
+    ],
+    "badge": "Golden Crunch",
+    "storyNote": "Boiled taro sliced and pan-crisped to golden perfection with red chilli tempering.",
+    "teluguTerms": [
+      "చామదుంప",
+      "వేపుడు",
+      "కరకరలాడే"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Chamadumpalu / taro or colocasia (చామదుంపలు) — as needed",
+          "Oil — a relatively generous amount, as spoken",
+          "Salt and chilli powder — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the chamadumpalu. Once cool, remove the skin.",
+      "Cut them into rounds or pieces, fry them in oil, and remove them.",
+      "Sprinkle with salt and chilli powder."
+    ],
+    "reasons": [
+      "The chamadumpalu are boiled and cooled before peeling.",
+      "They may be cut into rounds or pieces.",
+      "Salt and chilli powder are added after frying."
+    ],
+    "tips": [
+      "Cut the boiled chamadumpalu into rounds or pieces, as spoken."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/chamadumpa-fry.png",
+      "webp": "assets/images/webp/chamadumpa-fry.webp",
+      "thumb": "assets/images/webp/chamadumpa-fry-thumb.webp"
+    },
+    "searchHaystack": "chamadumpa-fry chamadumpa-fry చామదుంపల వేపుడు chamadumpa vepudu / taro fry taro taro (చామదుంప) fry golden crunch boiled taro sliced and pan-crisped to golden perfection with red chilli tempering. crispy savory spicy vegetarian gluten-free vegan crispy-craving rice-side weekend-special చామదుంప వేపుడు కరకరలాడే chamadumpalu / taro or colocasia (చామదుంపలు) — as needed oil — a relatively generous amount, as spoken salt and chilli powder — as needed boil the chamadumpalu. once cool, remove the skin. cut them into rounds or pieces, fry them in oil, and remove them. sprinkle with salt and chilli powder. the chamadumpalu are boiled and cooled before peeling. they may be cut into rounds or pieces. salt and chilli powder are added after frying. cut the boiled chamadumpalu into rounds or pieces, as spoken."
+  },
+  {
+    "number": 13,
+    "id": "chamadumpa-pulusu",
+    "slug": "chamadumpa-pulusu",
+    "titleOriginal": "చామదుంపల పులుసు",
+    "titleEnglish": "Chamadumpa Pulusu",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "taro",
+    "categoryLabel": "Taro (చామదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "tangy",
+      "sour",
+      "sweet-sour",
+      "spicy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "tangy-craving",
+      "comfort-food",
+      "rainy-day"
+    ],
+    "badge": "Tangy Wonder",
+    "storyNote": "Slow-simmered taro in an unctuous, lip-smacking tamarind and jaggery gravy.",
+    "teluguTerms": [
+      "చామదుంప",
+      "పులుసు",
+      "చింతపండు",
+      "బెల్లం"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "PULUSU",
+        "items": [
+          "Chamadumpalu / taro or colocasia — as needed",
+          "Tamarind — as needed",
+          "Jaggery — optional, to taste",
+          "Chilli powder, salt, and turmeric — as needed",
+          "Onion and green chilli — as needed",
+          "Oil — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Mustard seeds",
+          "Cumin seeds",
+          "Urad dal",
+          "Dried red chilli",
+          "Asafoetida",
+          "Fenugreek",
+          "Curry leaves"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the chamadumpalu and keep them aside. Soak the tamarind.",
+      "Chop the onion and green chilli. Heat oil and fry the tempering, then add curry leaves, green chilli, and onion.",
+      "Add the yam pieces and pour in the tamarind gravy.",
+      "Add salt, chilli powder, and a little jaggery. Cook until the pulusu becomes thick.",
+      "Add more jaggery only if a sweeter taste is wanted."
+    ],
+    "reasons": [
+      "The pulusu is cooked until it becomes thick.",
+      "Jaggery is optional and can be increased only for a sweeter taste.",
+      "The boiled chamadumpalu are added to tamarind gravy."
+    ],
+    "tips": [
+      "Jaggery is optional and added according to desired sweetness."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/chamadumpa-pulusu.png",
+      "webp": "assets/images/webp/chamadumpa-pulusu.webp",
+      "thumb": "assets/images/webp/chamadumpa-pulusu-thumb.webp"
+    },
+    "searchHaystack": "chamadumpa-pulusu chamadumpa-pulusu చామదుంపల పులుసు chamadumpa pulusu taro taro (చామదుంప) curry tangy wonder slow-simmered taro in an unctuous, lip-smacking tamarind and jaggery gravy. tangy sour sweet-sour spicy vegetarian gluten-free vegan tangy-craving comfort-food rainy-day చామదుంప పులుసు చింతపండు బెల్లం chamadumpalu / taro or colocasia — as needed tamarind — as needed jaggery — optional, to taste chilli powder, salt, and turmeric — as needed onion and green chilli — as needed oil — as needed mustard seeds cumin seeds urad dal dried red chilli asafoetida fenugreek curry leaves boil the chamadumpalu and keep them aside. soak the tamarind. chop the onion and green chilli. heat oil and fry the tempering, then add curry leaves, green chilli, and onion. add the yam pieces and pour in the tamarind gravy. add salt, chilli powder, and a little jaggery. cook until the pulusu becomes thick. add more jaggery only if a sweeter taste is wanted. the pulusu is cooked until it becomes thick. jaggery is optional and can be increased only for a sweeter taste. the boiled chamadumpalu are added to tamarind gravy. jaggery is optional and added according to desired sweetness."
+  },
+  {
+    "number": 14,
+    "id": "chamadumpa-curry",
+    "slug": "chamadumpa-curry",
+    "titleOriginal": "చామదుంపల కూర",
+    "titleEnglish": "Chamadumpa Curry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "taro",
+    "categoryLabel": "Taro (చామదుంప)",
+    "categoryIcon": "🥔",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "mild",
+      "savory",
+      "comforting"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "mild-stomach",
+      "everyday-lunch",
+      "gentle-food"
+    ],
+    "badge": "Gentle Comfort",
+    "storyNote": "Tender yam chunks cooked gently without green chilli, mild on spices and easy on the palate.",
+    "teluguTerms": [
+      "చామదుంప",
+      "కూర",
+      "మసాలా"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Chamadumpalu / taro or colocasia — as needed",
+          "Oil — as needed",
+          "Dried red chilli — as needed",
+          "Mustard seeds, cumin seeds, and curry leaves — as needed",
+          "“చాయ్ మినప్పప్పు” — unclear ingredient",
+          "Salt and chilli powder — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the chamadumpalu and keep them aside. Do not add green chilli.",
+      "Heat oil and fry the dried chilli, mustard, cumin, curry leaves, and dal ingredients.",
+      "Add the chamadumpa pieces and keep stirring until they fry well and the slime is gone.",
+      "Add salt and chilli powder and take off the heat."
+    ],
+    "reasons": [
+      "The speaker corrects that green chilli is not used.",
+      "The chamadumpa pieces are stirred until the slime is gone.",
+      "The dish is seasoned after frying."
+    ],
+    "tips": [
+      "Do not add green chilli, according to the speaker’s correction."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/chamadumpa-curry.png",
+      "webp": "assets/images/webp/chamadumpa-curry.webp",
+      "thumb": "assets/images/webp/chamadumpa-curry-thumb.webp"
+    },
+    "searchHaystack": "chamadumpa-curry chamadumpa-curry చామదుంపల కూర chamadumpa curry taro taro (చామదుంప) curry gentle comfort tender yam chunks cooked gently without green chilli, mild on spices and easy on the palate. mild savory comforting vegetarian gluten-free vegan mild-stomach everyday-lunch gentle-food చామదుంప కూర మసాలా chamadumpalu / taro or colocasia — as needed oil — as needed dried red chilli — as needed mustard seeds, cumin seeds, and curry leaves — as needed “చాయ్ మినప్పప్పు” — unclear ingredient salt and chilli powder — as needed boil the chamadumpalu and keep them aside. do not add green chilli. heat oil and fry the dried chilli, mustard, cumin, curry leaves, and dal ingredients. add the chamadumpa pieces and keep stirring until they fry well and the slime is gone. add salt and chilli powder and take off the heat. the speaker corrects that green chilli is not used. the chamadumpa pieces are stirred until the slime is gone. the dish is seasoned after frying. do not add green chilli, according to the speaker’s correction."
+  },
+  {
+    "number": 15,
+    "id": "lemon-rice",
+    "slug": "lemon-rice",
+    "titleOriginal": "నిమ్మకాయ పులిహోర",
+    "titleEnglish": "Nimmakaya Pulihora / Lemon Rice",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "rice",
+    "categoryLabel": "Rice (అన్నం)",
+    "categoryIcon": "🍚",
+    "prepStyle": "rice",
+    "flavorProfile": [
+      "tangy",
+      "crunchy",
+      "citrusy",
+      "festive"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "festive-feast",
+      "lunch-box",
+      "picnic-magic"
+    ],
+    "badge": "Golden Sun Rice",
+    "storyNote": "Fragrant turmeric rice dressed with fresh lemon juice, roasted peanuts, chana dal, and curry leaves.",
+    "teluguTerms": [
+      "నిమ్మకాయ",
+      "పులిహోర",
+      "చిత్రాన్నం",
+      "పసుపు అన్నం"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "RICE AND SOURING",
+        "items": [
+          "Rice — 1/4 kg",
+          "Lemons — 3 listed; juice from 2 mentioned in the method",
+          "Water — 2 measures for the rice, using the same measure as the rice",
+          "Salt and turmeric — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Green chillies — as needed",
+          "Curry leaves — as needed",
+          "Dried red chilli — as needed",
+          "Chana dal — as needed",
+          "Mustard seeds and cumin seeds — as needed",
+          "Oil — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Cook the rice with turmeric and some curry leaves in a pressure cooker. The number of whistles is not specified.",
+      "Let the rice cool on a plate. Mix lemon juice with salt and add it to the cooled rice.",
+      "Taste and adjust the salt and sourness.",
+      "Fry the dried chilli, chana dal, mustard, cumin, green chilli, and curry leaves in oil.",
+      "Add the tempering to the rice, mix, and serve."
+    ],
+    "reasons": [
+      "The rice is cooled before the lemon-and-salt mixture is added.",
+      "Salt and sourness are adjusted by taste.",
+      "A fried chilli-and-dal tempering is mixed through the rice."
+    ],
+    "tips": [
+      "The ingredient recording says 3 lemons; the method mentions juice from 2 lemons."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/lemon-rice.png",
+      "webp": "assets/images/webp/lemon-rice.webp",
+      "thumb": "assets/images/webp/lemon-rice-thumb.webp"
+    },
+    "searchHaystack": "lemon-rice lemon-rice నిమ్మకాయ పులిహోర nimmakaya pulihora / lemon rice rice rice (అన్నం) rice golden sun rice fragrant turmeric rice dressed with fresh lemon juice, roasted peanuts, chana dal, and curry leaves. tangy crunchy citrusy festive vegetarian gluten-free vegan festive-feast lunch-box picnic-magic నిమ్మకాయ పులిహోర చిత్రాన్నం పసుపు అన్నం rice — 1/4 kg lemons — 3 listed; juice from 2 mentioned in the method water — 2 measures for the rice, using the same measure as the rice salt and turmeric — as needed green chillies — as needed curry leaves — as needed dried red chilli — as needed chana dal — as needed mustard seeds and cumin seeds — as needed oil — as needed cook the rice with turmeric and some curry leaves in a pressure cooker. the number of whistles is not specified. let the rice cool on a plate. mix lemon juice with salt and add it to the cooled rice. taste and adjust the salt and sourness. fry the dried chilli, chana dal, mustard, cumin, green chilli, and curry leaves in oil. add the tempering to the rice, mix, and serve. the rice is cooled before the lemon-and-salt mixture is added. salt and sourness are adjusted by taste. a fried chilli-and-dal tempering is mixed through the rice. the ingredient recording says 3 lemons; the method mentions juice from 2 lemons."
+  },
+  {
+    "number": 16,
+    "id": "plantain-moong-dal-curry",
+    "slug": "plantain-moong-dal-curry",
+    "titleOriginal": "అరటికాయ పెసరపప్పు కూర",
+    "titleEnglish": "Plantain Moong Dal Curry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "plantain",
+    "categoryLabel": "Plantain (అరటికాయ)",
+    "categoryIcon": "🍌",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "protein-rich",
+      "mild",
+      "savory"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan",
+      "high-protein"
+    ],
+    "moodTags": [
+      "healthy-living",
+      "traditional-lunch",
+      "nourishing"
+    ],
+    "badge": "Nourishing Roots",
+    "storyNote": "Raw green banana cubes dry-braised with tender yellow moong dal for natural wholesome nutrition.",
+    "teluguTerms": [
+      "అరటికాయ",
+      "పెసరపప్పు",
+      "కూర",
+      "బలవర్ధకం"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Raw bananas / plantains — as needed",
+          "Moong dal — as needed",
+          "Salt and turmeric — as needed",
+          "Oil — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "“చాయ్ మిరపప్పు” — unclear ingredient",
+          "Green chilli",
+          "Curry leaves"
+        ]
+      }
+    ],
+    "steps": [
+      "Cut the plantains and add the desired amount of moong dal. Boil them together.",
+      "Drain them in a colander and let the water run off.",
+      "Heat oil and fry the tempering. Add the drained plantain and dal.",
+      "Add salt and turmeric and fry until dry. Take off the heat."
+    ],
+    "reasons": [
+      "Plantain and moong dal are boiled together.",
+      "The cooked mixture is drained before frying.",
+      "The final fry is cooked until dry."
+    ],
+    "tips": [],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/plantain-moong-dal-curry.png",
+      "webp": "assets/images/webp/plantain-moong-dal-curry.webp",
+      "thumb": "assets/images/webp/plantain-moong-dal-curry-thumb.webp"
+    },
+    "searchHaystack": "plantain-moong-dal-curry plantain-moong-dal-curry అరటికాయ పెసరపప్పు కూర plantain moong dal curry plantain plantain (అరటికాయ) curry nourishing roots raw green banana cubes dry-braised with tender yellow moong dal for natural wholesome nutrition. protein-rich mild savory vegetarian gluten-free vegan high-protein healthy-living traditional-lunch nourishing అరటికాయ పెసరపప్పు కూర బలవర్ధకం raw bananas / plantains — as needed moong dal — as needed salt and turmeric — as needed oil — as needed dried red chilli mustard seeds cumin seeds “చాయ్ మిరపప్పు” — unclear ingredient green chilli curry leaves cut the plantains and add the desired amount of moong dal. boil them together. drain them in a colander and let the water run off. heat oil and fry the tempering. add the drained plantain and dal. add salt and turmeric and fry until dry. take off the heat. plantain and moong dal are boiled together. the cooked mixture is drained before frying. the final fry is cooked until dry. "
+  },
+  {
+    "number": 17,
+    "id": "plantain-fry",
+    "slug": "plantain-fry",
+    "titleOriginal": "అరటికాయ వేపుడు",
+    "titleEnglish": "Plantain Fry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "plantain",
+    "categoryLabel": "Plantain (అరటికాయ)",
+    "categoryIcon": "🍌",
+    "prepStyle": "fry",
+    "flavorProfile": [
+      "crispy",
+      "savory",
+      "spicy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "crispy-craving",
+      "classic-side",
+      "quick-lunch"
+    ],
+    "badge": "Crisp Heirloom",
+    "storyNote": "Raw banana coins shallow fried until crispy edges form with aromatic curry leaf seasoning.",
+    "teluguTerms": [
+      "అరటికాయ",
+      "వేపుడు",
+      "ఫ్రై"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Raw banana / plantain — as needed",
+          "Oil — as needed",
+          "Salt and chilli powder — as needed"
+        ]
+      }
+    ],
+    "steps": [
+      "Cut the plantain into thin pieces and keep them in water.",
+      "Heat oil in a small wok or pan. Drain the pieces once the water has run off and add them to the pan.",
+      "Stir and cook until the pieces are tender. Add salt and chilli powder and take off the heat."
+    ],
+    "reasons": [
+      "The plantain is cut thinly before cooking.",
+      "The pieces are drained before going into the oil.",
+      "The fry is taken off the heat when the pieces are tender."
+    ],
+    "tips": [
+      "Use more or less oil according to preference, as spoken."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/plantain-fry.png",
+      "webp": "assets/images/webp/plantain-fry.webp",
+      "thumb": "assets/images/webp/plantain-fry-thumb.webp"
+    },
+    "searchHaystack": "plantain-fry plantain-fry అరటికాయ వేపుడు plantain fry plantain plantain (అరటికాయ) fry crisp heirloom raw banana coins shallow fried until crispy edges form with aromatic curry leaf seasoning. crispy savory spicy vegetarian gluten-free vegan crispy-craving classic-side quick-lunch అరటికాయ వేపుడు ఫ్రై raw banana / plantain — as needed oil — as needed salt and chilli powder — as needed cut the plantain into thin pieces and keep them in water. heat oil in a small wok or pan. drain the pieces once the water has run off and add them to the pan. stir and cook until the pieces are tender. add salt and chilli powder and take off the heat. the plantain is cut thinly before cooking. the pieces are drained before going into the oil. the fry is taken off the heat when the pieces are tender. use more or less oil according to preference, as spoken."
+  },
+  {
+    "number": 18,
+    "id": "plantain-onion-curry",
+    "slug": "plantain-onion-curry",
+    "titleOriginal": "అరటికాయ కూర",
+    "titleEnglish": "Plantain Onion Curry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "plantain",
+    "categoryLabel": "Plantain (అరటికాయ)",
+    "categoryIcon": "🍌",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "sweet-savory",
+      "mild",
+      "comforting"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "family-dinner",
+      "simple-pleasure",
+      "everyday"
+    ],
+    "badge": "Homestyle Warmth",
+    "storyNote": "Subtly sweet sautéed onions tossed with tender plantain cubes and gentle spices.",
+    "teluguTerms": [
+      "అరటికాయ",
+      "ఉల్లిపాయ",
+      "కూర"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Raw banana / plantain — as needed",
+          "Onion — half the amount of plantain pieces",
+          "Green chilli and curry leaves — as needed",
+          "Oil, turmeric, and salt — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Urad dal",
+          "Cumin seeds",
+          "Mustard seeds",
+          "Some chana dal"
+        ]
+      }
+    ],
+    "steps": [
+      "Cut the plantain into thin pieces and chop the onion to half that amount.",
+      "Heat oil and fry the tempering. Add green chilli, curry leaves, and onion.",
+      "Add the plantain, turmeric, and salt. Stir and cook until tender."
+    ],
+    "reasons": [
+      "The onion amount is described as half the amount of plantain pieces.",
+      "Green chilli, curry leaves, and onion are added after the tempering.",
+      "The plantain is cooked until tender."
+    ],
+    "tips": [
+      "Use half the amount of onion compared with the plantain pieces, as spoken."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/plantain-onion-curry.png",
+      "webp": "assets/images/webp/plantain-onion-curry.webp",
+      "thumb": "assets/images/webp/plantain-onion-curry-thumb.webp"
+    },
+    "searchHaystack": "plantain-onion-curry plantain-onion-curry అరటికాయ కూర plantain onion curry plantain plantain (అరటికాయ) curry homestyle warmth subtly sweet sautéed onions tossed with tender plantain cubes and gentle spices. sweet-savory mild comforting vegetarian gluten-free vegan family-dinner simple-pleasure everyday అరటికాయ ఉల్లిపాయ కూర raw banana / plantain — as needed onion — half the amount of plantain pieces green chilli and curry leaves — as needed oil, turmeric, and salt — as needed dried red chilli urad dal cumin seeds mustard seeds some chana dal cut the plantain into thin pieces and chop the onion to half that amount. heat oil and fry the tempering. add green chilli, curry leaves, and onion. add the plantain, turmeric, and salt. stir and cook until tender. the onion amount is described as half the amount of plantain pieces. green chilli, curry leaves, and onion are added after the tempering. the plantain is cooked until tender. use half the amount of onion compared with the plantain pieces, as spoken."
+  },
+  {
+    "number": 19,
+    "id": "plantain-patodi",
+    "slug": "plantain-patodi",
+    "titleOriginal": "అరటికాయ పాటోడి",
+    "titleEnglish": "Plantain Paatodi",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "plantain",
+    "categoryLabel": "Plantain (అరటికాయ)",
+    "categoryIcon": "🍌",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "savory",
+      "spiced",
+      "textured"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "rare-heirloom",
+      "traditional-feast",
+      "grandma-recipe"
+    ],
+    "badge": "Grandma’s Secret",
+    "storyNote": "An endangered traditional recipe: crumbled steamed raw banana sautéed with spiced onion crumble.",
+    "teluguTerms": [
+      "అరటికాయ",
+      "పటోడి",
+      "పాతకాలం"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "MAIN INGREDIENTS",
+        "items": [
+          "Raw banana / plantain — as needed",
+          "Onion — about half the plantain amount",
+          "Green chilli and curry leaves — as needed",
+          "Oil, turmeric, and salt — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "Urad dal",
+          "Raw chana dal"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the plantain and keep it aside. Chop the onion into small pieces.",
+      "Heat oil and fry the tempering. Add green chilli, curry leaves, and onion.",
+      "Remove the plantain skin, cut the plantain into pieces, and add it to the pan.",
+      "Add turmeric and salt. Mix and cook until no raw moisture remains, then take off the heat."
+    ],
+    "reasons": [
+      "The onion amount is described as about half the plantain amount.",
+      "The boiled plantain is peeled and added after the onion mixture cooks.",
+      "The dish is cooked until no raw moisture remains."
+    ],
+    "tips": [
+      "“Paatodi” is preserved as spoken; no additional interpretation is added."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/plantain-patodi.png",
+      "webp": "assets/images/webp/plantain-patodi.webp",
+      "thumb": "assets/images/webp/plantain-patodi-thumb.webp"
+    },
+    "searchHaystack": "plantain-patodi plantain-patodi అరటికాయ పాటోడి plantain paatodi plantain plantain (అరటికాయ) curry grandma’s secret an endangered traditional recipe: crumbled steamed raw banana sautéed with spiced onion crumble. savory spiced textured vegetarian gluten-free vegan rare-heirloom traditional-feast grandma-recipe అరటికాయ పటోడి పాతకాలం raw banana / plantain — as needed onion — about half the plantain amount green chilli and curry leaves — as needed oil, turmeric, and salt — as needed dried red chilli mustard seeds cumin seeds urad dal raw chana dal boil the plantain and keep it aside. chop the onion into small pieces. heat oil and fry the tempering. add green chilli, curry leaves, and onion. remove the plantain skin, cut the plantain into pieces, and add it to the pan. add turmeric and salt. mix and cook until no raw moisture remains, then take off the heat. the onion amount is described as about half the plantain amount. the boiled plantain is peeled and added after the onion mixture cooks. the dish is cooked until no raw moisture remains. “paatodi” is preserved as spoken; no additional interpretation is added."
+  },
+  {
+    "number": 20,
+    "id": "plantain-pacchi-pulusu",
+    "slug": "plantain-pacchi-pulusu",
+    "titleOriginal": "అరటికాయ పచ్చి పులుసు",
+    "titleEnglish": "Plantain Pacchi Pulusu",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "plantain",
+    "categoryLabel": "Plantain (అరటికాయ)",
+    "categoryIcon": "🍌",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "sour",
+      "tangy",
+      "raw-tamarind",
+      "refreshing"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "refreshing",
+      "cooling",
+      "summer-classic"
+    ],
+    "badge": "Summer Elixir",
+    "storyNote": "Tangy uncooked tamarind nectar flavored with mashed plantain, raw onions, and smoked chilli.",
+    "teluguTerms": [
+      "పచ్చి పులుసు",
+      "అరటికాయ",
+      "చల్లని పులుసు"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "PULUSU",
+        "items": [
+          "One raw banana / plantain",
+          "Tamarind, including “ఇసబాగ చింతపండు” — unclear term, as needed",
+          "Onion, green chilli, and curry leaves — as needed",
+          "Salt and turmeric — as needed",
+          "Jaggery — optional, if a sweet taste is wanted",
+          "Oil — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "Urad dal",
+          "Asafoetida"
+        ]
+      }
+    ],
+    "steps": [
+      "Boil the plantain and keep it aside. Fry the tempering, then add green chilli, curry leaves, and onion.",
+      "Prepare tamarind pulp that is neither too thin nor too thick.",
+      "Remove the plantain skin and mash the plantain. Mix it into the tamarind pulp.",
+      "Add the fried onion and tempering, then add salt, turmeric, and optional jaggery.",
+      "Taste and serve with rice."
+    ],
+    "reasons": [
+      "The tamarind pulp should be neither too thin nor too thick.",
+      "Boiled plantain is mashed before being mixed into the tamarind pulp.",
+      "The recording specifies serving it with rice."
+    ],
+    "tips": [
+      "Jaggery is optional if a sweet taste is wanted."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/plantain-pacchi-pulusu.png",
+      "webp": "assets/images/webp/plantain-pacchi-pulusu.webp",
+      "thumb": "assets/images/webp/plantain-pacchi-pulusu-thumb.webp"
+    },
+    "searchHaystack": "plantain-pacchi-pulusu plantain-pacchi-pulusu అరటికాయ పచ్చి పులుసు plantain pacchi pulusu plantain plantain (అరటికాయ) curry summer elixir tangy uncooked tamarind nectar flavored with mashed plantain, raw onions, and smoked chilli. sour tangy raw-tamarind refreshing vegetarian gluten-free vegan refreshing cooling summer-classic పచ్చి పులుసు అరటికాయ చల్లని పులుసు one raw banana / plantain tamarind, including “ఇసబాగ చింతపండు” — unclear term, as needed onion, green chilli, and curry leaves — as needed salt and turmeric — as needed jaggery — optional, if a sweet taste is wanted oil — as needed dried red chilli mustard seeds cumin seeds urad dal asafoetida boil the plantain and keep it aside. fry the tempering, then add green chilli, curry leaves, and onion. prepare tamarind pulp that is neither too thin nor too thick. remove the plantain skin and mash the plantain. mix it into the tamarind pulp. add the fried onion and tempering, then add salt, turmeric, and optional jaggery. taste and serve with rice. the tamarind pulp should be neither too thin nor too thick. boiled plantain is mashed before being mixed into the tamarind pulp. the recording specifies serving it with rice. jaggery is optional if a sweet taste is wanted."
+  },
+  {
+    "number": 21,
+    "id": "tomato-dal",
+    "slug": "tomato-dal",
+    "titleOriginal": "టమాటా పప్పు",
+    "titleEnglish": "Tomato Dal",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "tomato",
+    "categoryLabel": "Tomato (టమాటా)",
+    "categoryIcon": "🍅",
+    "prepStyle": "dal",
+    "flavorProfile": [
+      "comforting",
+      "tangy",
+      "savory",
+      "hearty"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan",
+      "high-protein"
+    ],
+    "moodTags": [
+      "soul-food",
+      "daily-essential",
+      "warm-bowl"
+    ],
+    "badge": "Soul of Telugu Home",
+    "storyNote": "Creamy toor dal cooked with tart country tomatoes and finished with sizzling ghee-fried garlic.",
+    "teluguTerms": [
+      "టమాటా పప్పు",
+      "పప్పు",
+      "తోర్ దాల్",
+      "నెయ్యి"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "DAL",
+        "items": [
+          "Tomatoes — as needed",
+          "Toor dal / kandi pappu (కందిపప్పు) — as needed",
+          "Green chillies — as needed",
+          "Curry leaves — as needed",
+          "Salt, turmeric, and chilli powder — as needed",
+          "Oil or ghee — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Mustard seeds",
+          "Cumin seeds",
+          "Urad dal",
+          "Dried red chilli",
+          "Asafoetida — if available",
+          "Curry leaves"
+        ]
+      }
+    ],
+    "steps": [
+      "Wash the dal and place it in a bowl with water and turmeric. Chop the tomatoes and green chillies.",
+      "Put the dal bowl in the pressure cooker and place the tomato and green chilli bowl inside/on top as described in the recording.",
+      "Pressure-cook for 5–6 whistles; the second recording says 6.",
+      "Once cooked, remove tomato skins if needed, add the tomatoes to the dal, and place it on the stove.",
+      "Heat oil or ghee and fry the tempering. Add it to the dal with salt and boil.",
+      "Taste when nearly ready and take off the heat."
+    ],
+    "reasons": [
+      "The two recordings describe 5–6 whistles and 6 whistles respectively.",
+      "Tomato skins may be removed if needed.",
+      "The dal is tasted when nearly ready before it is taken off the heat."
+    ],
+    "tips": [
+      "Asafoetida is included only if available."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/tomato-dal.png",
+      "webp": "assets/images/webp/tomato-dal.webp",
+      "thumb": "assets/images/webp/tomato-dal-thumb.webp"
+    },
+    "searchHaystack": "tomato-dal tomato-dal టమాటా పప్పు tomato dal tomato tomato (టమాటా) dal soul of telugu home creamy toor dal cooked with tart country tomatoes and finished with sizzling ghee-fried garlic. comforting tangy savory hearty vegetarian gluten-free vegan high-protein soul-food daily-essential warm-bowl టమాటా పప్పు పప్పు తోర్ దాల్ నెయ్యి tomatoes — as needed toor dal / kandi pappu (కందిపప్పు) — as needed green chillies — as needed curry leaves — as needed salt, turmeric, and chilli powder — as needed oil or ghee — as needed mustard seeds cumin seeds urad dal dried red chilli asafoetida — if available curry leaves wash the dal and place it in a bowl with water and turmeric. chop the tomatoes and green chillies. put the dal bowl in the pressure cooker and place the tomato and green chilli bowl inside/on top as described in the recording. pressure-cook for 5–6 whistles; the second recording says 6. once cooked, remove tomato skins if needed, add the tomatoes to the dal, and place it on the stove. heat oil or ghee and fry the tempering. add it to the dal with salt and boil. taste when nearly ready and take off the heat. the two recordings describe 5–6 whistles and 6 whistles respectively. tomato skins may be removed if needed. the dal is tasted when nearly ready before it is taken off the heat. asafoetida is included only if available."
+  },
+  {
+    "number": 22,
+    "id": "tomato-mixed-vegetable-curry",
+    "slug": "tomato-mixed-vegetable-curry",
+    "titleOriginal": "టమాటా కూర",
+    "titleEnglish": "Tomato Mixed-Vegetable Curry",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "tomato",
+    "categoryLabel": "Tomato (టమాటా)",
+    "categoryIcon": "🍅",
+    "prepStyle": "curry",
+    "flavorProfile": [
+      "rich",
+      "hearty",
+      "tangy-savory"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "vegetable-bounty",
+      "family-lunch",
+      "colorful"
+    ],
+    "badge": "Garden Medley",
+    "storyNote": "A colorful medley of seasonal vegetables braised in a luscious tomato-cumin reduction.",
+    "teluguTerms": [
+      "టమాటా కూర",
+      "మిక్స్డ్ వెజిటబుల్",
+      "కూరగాయలు"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "VEGETABLES",
+        "items": [
+          "Tomatoes — as needed",
+          "Chikkudu / cluster beans (చిక్కుడు) — optional, as available",
+          "“ములగ” and “ములక్కాడలు” — as spoken, amounts not specified",
+          "Potatoes and onion — as needed",
+          "Green chilli, curry leaves, and coriander — as needed"
+        ]
+      },
+      {
+        "name": "SEASONING",
+        "items": [
+          "Oil, turmeric, chilli powder, and salt — as needed",
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "Chana dal",
+          "Raw chickpeas"
+        ]
+      },
+      {
+        "name": "OPTIONAL VARIATION",
+        "items": [
+          "Egg — optional, as spoken"
+        ]
+      }
+    ],
+    "steps": [
+      "Cut the listed vegetables into small pieces.",
+      "Heat oil and fry the tempering. Add all the chopped vegetables.",
+      "Add turmeric, chilli powder, and salt. Cover and cook for 2–3 “kootalu” as spoken; the exact cooking method is unclear.",
+      "If it becomes too dry, add a little water and cook until it thickens.",
+      "Optional: fry an egg in a little oil and cook it into the curry while some water remains."
+    ],
+    "reasons": [
+      "Any listed vegetable may be omitted, as spoken.",
+      "The curry is cooked until it thickens.",
+      "An egg variation is mentioned as optional."
+    ],
+    "tips": [
+      "Any listed vegetable may be omitted.",
+      "The egg variation is optional."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/tomato-mixed-vegetable-curry.png",
+      "webp": "assets/images/webp/tomato-mixed-vegetable-curry.webp",
+      "thumb": "assets/images/webp/tomato-mixed-vegetable-curry-thumb.webp"
+    },
+    "searchHaystack": "tomato-mixed-vegetable-curry tomato-mixed-vegetable-curry టమాటా కూర tomato mixed-vegetable curry tomato tomato (టమాటా) curry garden medley a colorful medley of seasonal vegetables braised in a luscious tomato-cumin reduction. rich hearty tangy-savory vegetarian gluten-free vegan vegetable-bounty family-lunch colorful టమాటా కూర మిక్స్డ్ వెజిటబుల్ కూరగాయలు tomatoes — as needed chikkudu / cluster beans (చిక్కుడు) — optional, as available “ములగ” and “ములక్కాడలు” — as spoken, amounts not specified potatoes and onion — as needed green chilli, curry leaves, and coriander — as needed oil, turmeric, chilli powder, and salt — as needed dried red chilli mustard seeds cumin seeds chana dal raw chickpeas egg — optional, as spoken cut the listed vegetables into small pieces. heat oil and fry the tempering. add all the chopped vegetables. add turmeric, chilli powder, and salt. cover and cook for 2–3 “kootalu” as spoken; the exact cooking method is unclear. if it becomes too dry, add a little water and cook until it thickens. optional: fry an egg in a little oil and cook it into the curry while some water remains. any listed vegetable may be omitted, as spoken. the curry is cooked until it thickens. an egg variation is mentioned as optional. any listed vegetable may be omitted. the egg variation is optional."
+  },
+  {
+    "number": 23,
+    "id": "tomato-pachadi",
+    "slug": "tomato-pachadi",
+    "titleOriginal": "టమాటా పచ్చడి",
+    "titleEnglish": "Tomato Pachadi",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "tomato",
+    "categoryLabel": "Tomato (టమాటా)",
+    "categoryIcon": "🍅",
+    "prepStyle": "pachadi",
+    "flavorProfile": [
+      "tangy",
+      "fiery",
+      "zingy",
+      "spicy"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free",
+      "vegan"
+    ],
+    "moodTags": [
+      "instant-hit",
+      "breakfast-side",
+      "rice-companion"
+    ],
+    "badge": "Fiery Relish",
+    "storyNote": "Cooked ripe country tomatoes pounded with roasted red chillies, mustard, and fragrant hing.",
+    "teluguTerms": [
+      "టమాటా పచ్చడి",
+      "రోటి పచ్చడి",
+      "కారంగా"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "PACHADI",
+        "items": [
+          "Tomatoes and coriander — as needed",
+          "Green chillies and dried red chillies — as needed",
+          "Mustard seeds, urad dal, raw chana dal, and cumin seeds — as needed",
+          "Garlic — optional; the method mentions two cloves for the reserved tempering",
+          "Salt, turmeric, and tamarind — as needed",
+          "Oil — as needed",
+          "Curry leaves — as spoken in the method"
+        ]
+      }
+    ],
+    "steps": [
+      "Chop the tomatoes and coriander.",
+      "Fry dried red chilli, mustard, urad dal, chana dal, cumin, and curry leaves in oil. Remove the tempering to a bowl.",
+      "Add coriander and chopped tomatoes to the pan. Add a little tamarind, optional garlic, and salt, then cook.",
+      "Grind the fried tempering with the green chillies, keeping some tempering and oil aside.",
+      "Add the cooked tomato mixture and turmeric to the mixer and grind. Taste and adjust the salt.",
+      "Mix in the reserved tempering and oil. Keep some garlic, dal, and curry leaves in the oil if desired, as spoken."
+    ],
+    "reasons": [
+      "Some tempering and oil are reserved for mixing back into the pachadi.",
+      "The cooked tomato mixture is ground with the fried tempering.",
+      "Salt is adjusted after tasting."
+    ],
+    "tips": [
+      "Garlic is optional. The method mentions keeping two cloves in the reserved tempering."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/tomato-pachadi.png",
+      "webp": "assets/images/webp/tomato-pachadi.webp",
+      "thumb": "assets/images/webp/tomato-pachadi-thumb.webp"
+    },
+    "searchHaystack": "tomato-pachadi tomato-pachadi టమాటా పచ్చడి tomato pachadi tomato tomato (టమాటా) pachadi fiery relish cooked ripe country tomatoes pounded with roasted red chillies, mustard, and fragrant hing. tangy fiery zingy spicy vegetarian gluten-free vegan instant-hit breakfast-side rice-companion టమాటా పచ్చడి రోటి పచ్చడి కారంగా tomatoes and coriander — as needed green chillies and dried red chillies — as needed mustard seeds, urad dal, raw chana dal, and cumin seeds — as needed garlic — optional; the method mentions two cloves for the reserved tempering salt, turmeric, and tamarind — as needed oil — as needed curry leaves — as spoken in the method chop the tomatoes and coriander. fry dried red chilli, mustard, urad dal, chana dal, cumin, and curry leaves in oil. remove the tempering to a bowl. add coriander and chopped tomatoes to the pan. add a little tamarind, optional garlic, and salt, then cook. grind the fried tempering with the green chillies, keeping some tempering and oil aside. add the cooked tomato mixture and turmeric to the mixer and grind. taste and adjust the salt. mix in the reserved tempering and oil. keep some garlic, dal, and curry leaves in the oil if desired, as spoken. some tempering and oil are reserved for mixing back into the pachadi. the cooked tomato mixture is ground with the fried tempering. salt is adjusted after tasting. garlic is optional. the method mentions keeping two cloves in the reserved tempering."
+  },
+  {
+    "number": 24,
+    "id": "tomato-curd-pachadi",
+    "slug": "tomato-curd-pachadi",
+    "titleOriginal": "టమాటా పెరుగు పచ్చడి",
+    "titleEnglish": "Tomato Curd Pachadi",
+    "prepTime": "not specified",
+    "cookTime": "not specified",
+    "servings": "not specified",
+    "category": "tomato",
+    "categoryLabel": "Tomato (టమాటా)",
+    "categoryIcon": "🍅",
+    "prepStyle": "pachadi",
+    "flavorProfile": [
+      "cooling",
+      "tangy-creamy",
+      "mild"
+    ],
+    "dietary": [
+      "vegetarian",
+      "gluten-free"
+    ],
+    "moodTags": [
+      "cooling",
+      "probiotic",
+      "summer-side"
+    ],
+    "badge": "Velvet Cool",
+    "storyNote": "Sautéed tomatoes blended into thick whisked yogurt with tempered mustard and green chillies.",
+    "teluguTerms": [
+      "టమాటా పెరుగు పచ్చడి",
+      "రైతా",
+      "చల్లని"
+    ],
+    "ingredientGroups": [
+      {
+        "name": "PACHADI",
+        "items": [
+          "Yogurt/curd — as needed",
+          "Tomatoes — as needed",
+          "Salt and turmeric — as needed",
+          "Coriander — as needed",
+          "Onion — optional",
+          "Green chillies — optional, as needed",
+          "Oil or ghee — as needed"
+        ]
+      },
+      {
+        "name": "TEMPERING",
+        "items": [
+          "Dried red chilli",
+          "Mustard seeds",
+          "Cumin seeds",
+          "Urad dal",
+          "Curry leaves"
+        ]
+      }
+    ],
+    "steps": [
+      "Set the yogurt well. Cut the tomatoes into thin pieces and cook them with one drop of oil.",
+      "Prepare the tempering in oil or ghee. Add dried red chilli, mustard, cumin, urad dal, and curry leaves.",
+      "Add the tempering to the whisked yogurt/curd. Add salt, turmeric, and finely chopped coriander.",
+      "Optional: add finely chopped onion and green chilli.",
+      "Let the cooked tomatoes cool, add them to the curd mixture, and taste for salt."
+    ],
+    "reasons": [
+      "The yogurt is set and kept as the base.",
+      "The cooked tomatoes are cooled before being mixed into the curd.",
+      "Salt is checked after the final mix."
+    ],
+    "tips": [
+      "Onion and green chilli are optional."
+    ],
+    "nutrition": "Nutrition estimate unavailable — quantities and servings not specified.",
+    "assets": {
+      "png": "assets/images/posters/tomato-curd-pachadi.png",
+      "webp": "assets/images/webp/tomato-curd-pachadi.webp",
+      "thumb": "assets/images/webp/tomato-curd-pachadi-thumb.webp"
+    },
+    "searchHaystack": "tomato-curd-pachadi tomato-curd-pachadi టమాటా పెరుగు పచ్చడి tomato curd pachadi tomato tomato (టమాటా) pachadi velvet cool sautéed tomatoes blended into thick whisked yogurt with tempered mustard and green chillies. cooling tangy-creamy mild vegetarian gluten-free cooling probiotic summer-side టమాటా పెరుగు పచ్చడి రైతా చల్లని yogurt/curd — as needed tomatoes — as needed salt and turmeric — as needed coriander — as needed onion — optional green chillies — optional, as needed oil or ghee — as needed dried red chilli mustard seeds cumin seeds urad dal curry leaves set the yogurt well. cut the tomatoes into thin pieces and cook them with one drop of oil. prepare the tempering in oil or ghee. add dried red chilli, mustard, cumin, urad dal, and curry leaves. add the tempering to the whisked yogurt/curd. add salt, turmeric, and finely chopped coriander. optional: add finely chopped onion and green chilli. let the cooked tomatoes cool, add them to the curd mixture, and taste for salt. the yogurt is set and kept as the base. the cooked tomatoes are cooled before being mixed into the curd. salt is checked after the final mix. onion and green chilli are optional."
+  }
+]
