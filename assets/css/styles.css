@@ -1,5 +1,5 @@
 /* ==========================================================================
-   AMMA'S TABLE — CORE DESIGN SYSTEM & BASE STYLES
+   AMMA'S TABLE — CORE DESIGN SYSTEM & FULL-SPACE LAYOUT
    ========================================================================== */
 
 :root {
@@ -10,7 +10,7 @@
   --font-hand: 'Caveat', cursive;
   --font-telugu: 'Ramabhadra', 'NTR', 'Anek Telugu', sans-serif;
 
-  /* Disney Courtyard Light Palette (Default Theme: Golden Hour) */
+  /* Theme Tokens (Default: Golden Hour) */
   --color-bg-base: #faf5ea;
   --color-bg-surface: #fffdf8;
   --color-bg-card: #ffffff;
@@ -24,7 +24,7 @@
   --color-ink-muted: #8c8276;
   --color-ink-light: #b4aa9d;
 
-  /* Magical Spices Palette */
+  /* Spices Palette */
   --color-turmeric: #f59e0b;
   --color-turmeric-light: #fef3c7;
   --color-saffron: #ea580c;
@@ -35,7 +35,6 @@
   --color-cardamom-light: #dcfce7;
   --color-emerald-dark: #0f392b;
   --color-gold: #d97706;
-  --color-gold-foil: linear-gradient(135deg, #d4af37 0%, #ffd700 50%, #aa771c 100%);
   --color-gold-glow: rgba(245, 158, 11, 0.35);
 
   /* Shadows & Depth */
@@ -43,7 +42,6 @@
   --shadow-md: 0 8px 24px rgba(33, 29, 24, 0.08);
   --shadow-lg: 0 16px 40px rgba(33, 29, 24, 0.12);
   --shadow-magical: 0 20px 50px rgba(234, 88, 12, 0.15), 0 0 30px rgba(245, 158, 11, 0.1);
-  --shadow-modal: 0 30px 90px rgba(15, 20, 25, 0.35);
 
   /* Radii */
   --radius-sm: 8px;
@@ -56,8 +54,8 @@
   --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
   --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
   --transition-fast: 150ms var(--ease-smooth);
-  --transition-normal: 280ms var(--ease-smooth);
-  --transition-bounce: 450ms var(--ease-spring);
+  --transition-normal: 260ms var(--ease-smooth);
+  --transition-bounce: 400ms var(--ease-spring);
 }
 
 /* Base Reset */
@@ -77,14 +75,16 @@ body {
   font-family: var(--font-sans);
   color: var(--color-ink-primary);
   background-color: var(--color-bg-base);
-  line-height: 1.6;
-  min-height: 100vh;
-  overflow-x: hidden;
+  line-height: 1.5;
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
   position: relative;
   transition: background-color var(--transition-normal), color var(--transition-normal);
 }
 
-/* Ambient Canvas Overlay for Golden Spice Particles */
+/* Ambient Canvas Overlay */
 #ambientCanvas {
   position: fixed;
   top: 0;
@@ -93,29 +93,25 @@ body {
   height: 100vh;
   pointer-events: none;
   z-index: 1;
-  opacity: 0.75;
+  opacity: 0.65;
 }
 
-/* General Layout Containers */
-.site-wrapper {
+/* Full Space App Container */
+.app-container {
   position: relative;
   z-index: 2;
-  width: min(1440px, calc(100% - 48px));
-  margin: 0 auto;
-  padding: 0 0 80px;
-}
-
-@media (max-width: 768px) {
-  .site-wrapper {
-    width: calc(100% - 28px);
-    padding-bottom: 50px;
-  }
+  width: 100vw;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
 }
 
 /* Accessibility Focus Ring */
 :focus-visible {
   outline: 3px solid var(--color-turmeric);
-  outline-offset: 3px;
+  outline-offset: 2px;
   border-radius: var(--radius-sm);
 }
 

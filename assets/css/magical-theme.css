@@ -1,12 +1,11 @@
 /* ==========================================================================
-   AMMA'S TABLE — MAGICAL DISNEY STORYBOOK THEME & LIGHTING
+   AMMA'S TABLE — MAGICAL DISNEY THEME, LIGHTING & HEADER
    ========================================================================== */
 
 /* --------------------------------------------------------------------------
    1. Dynamic Lighting Moods
    -------------------------------------------------------------------------- */
 
-/* Golden Hour Courtyard (Default) */
 [data-theme="golden-hour"] {
   --color-bg-base: #fbf7ee;
   --color-bg-surface: #fffefb;
@@ -18,12 +17,11 @@
   --color-ink-primary: #211c18;
   --color-ink-secondary: #5a4f44;
   --color-ink-muted: #8c8072;
-  --card-glass: rgba(255, 255, 255, 0.85);
-  --card-border: rgba(217, 119, 6, 0.18);
-  --hero-glow: radial-gradient(circle at 50% 20%, rgba(245, 158, 11, 0.18), transparent 70%);
+  --card-glass: rgba(255, 255, 255, 0.88);
+  --card-border: rgba(217, 119, 6, 0.2);
+  --stage-glow: radial-gradient(circle at 50% 10%, rgba(245, 158, 11, 0.15), transparent 70%);
 }
 
-/* Midnight Kitchen Magic */
 [data-theme="midnight-kitchen"] {
   --color-bg-base: #0c121e;
   --color-bg-surface: #141c2c;
@@ -37,12 +35,11 @@
   --color-ink-muted: #94a3b8;
   --color-turmeric: #fbbf24;
   --color-saffron: #f97316;
-  --card-glass: rgba(24, 35, 56, 0.85);
+  --card-glass: rgba(24, 35, 56, 0.9);
   --card-border: rgba(251, 191, 36, 0.28);
-  --hero-glow: radial-gradient(circle at 50% 20%, rgba(59, 130, 246, 0.15), rgba(251, 191, 36, 0.08), transparent 70%);
+  --stage-glow: radial-gradient(circle at 50% 10%, rgba(59, 130, 246, 0.12), rgba(251, 191, 36, 0.08), transparent 70%);
 }
 
-/* Festival of Lights */
 [data-theme="festival-lights"] {
   --color-bg-base: #2a0b12;
   --color-bg-surface: #3b101c;
@@ -56,62 +53,92 @@
   --color-ink-muted: #fda4af;
   --color-turmeric: #facc15;
   --color-saffron: #fb923c;
-  --card-glass: rgba(74, 21, 35, 0.85);
+  --card-glass: rgba(74, 21, 35, 0.9);
   --card-border: rgba(250, 204, 21, 0.3);
-  --hero-glow: radial-gradient(circle at 50% 20%, rgba(225, 29, 72, 0.2), rgba(250, 204, 21, 0.12), transparent 70%);
+  --stage-glow: radial-gradient(circle at 50% 10%, rgba(225, 29, 72, 0.18), rgba(250, 204, 21, 0.1), transparent 70%);
 }
 
 /* --------------------------------------------------------------------------
-   2. Enchanted Navigation & Site Header
+   2. Enchanted Full-Width Site Header
    -------------------------------------------------------------------------- */
 
 .magical-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0;
+  padding: 12px 28px;
+  background: var(--color-bg-surface);
   border-bottom: 1px solid var(--color-border);
-  position: relative;
+  box-shadow: var(--shadow-sm);
+  z-index: 10;
+  flex-shrink: 0;
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .magical-header {
+    padding: 8px 14px;
+    gap: 8px;
+  }
+  .brand-fairytale {
+    font-size: 1.15rem;
+  }
+  .brand-tagline {
+    display: none;
+  }
+  .cauldron-emblem {
+    width: 32px;
+    height: 32px;
+  }
+  .header-actions {
+    gap: 6px;
+  }
+  .magic-pill-btn {
+    padding: 5px 10px;
+    font-size: 0.78rem;
+  }
+  .theme-select {
+    padding: 5px 22px 5px 8px;
+    font-size: 0.78rem;
+  }
 }
 
 .brand-story {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 14px;
   text-decoration: none;
-  group: pointer;
 }
 
 .cauldron-emblem {
   position: relative;
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   background: var(--color-emerald-dark);
   border-radius: 50% 50% 46% 46%;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 4px 15px rgba(15, 57, 43, 0.3), inset 0 2px 4px rgba(255, 255, 255, 0.3);
+  box-shadow: 0 4px 12px rgba(15, 57, 43, 0.3);
   border: 2px solid #d4af37;
   transform: rotate(-3deg);
-  transition: transform var(--transition-bounce), box-shadow var(--transition-bounce);
+  transition: transform var(--transition-bounce);
 }
 
 .cauldron-emblem:hover {
   transform: rotate(0deg) scale(1.08);
-  box-shadow: 0 8px 25px var(--color-gold-glow);
 }
 
 .cauldron-steam {
   position: absolute;
-  top: -12px;
-  font-size: 1.1rem;
+  top: -10px;
+  font-size: 0.95rem;
   animation: steamRise 2.4s ease-in-out infinite alternate;
 }
 
 .cauldron-flame {
-  font-size: 1.4rem;
-  filter: drop-shadow(0 0 6px var(--color-turmeric));
+  font-size: 1.15rem;
+  filter: drop-shadow(0 0 5px var(--color-turmeric));
 }
 
 .brand-titles {
@@ -121,11 +148,10 @@
 
 .brand-fairytale {
   font-family: var(--font-display);
-  font-size: 1.55rem;
+  font-size: 1.35rem;
   font-weight: 700;
-  letter-spacing: 0.5px;
   color: var(--color-ink-primary);
-  line-height: 1.15;
+  line-height: 1.1;
   background: linear-gradient(135deg, var(--color-ink-primary) 30%, var(--color-terracotta) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -133,28 +159,28 @@
 
 .brand-tagline {
   font-family: var(--font-hand);
-  font-size: 1.1rem;
+  font-size: 0.95rem;
   color: var(--color-terracotta);
-  letter-spacing: 0.5px;
-  margin-top: -2px;
+  line-height: 1;
 }
 
 .header-actions {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
-/* Sound & Theme Buttons */
+/* Magic Pill Buttons */
 .magic-pill-btn {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-  padding: 8px 16px;
-  background: var(--color-bg-surface);
+  gap: 7px;
+  padding: 7px 14px;
+  background: var(--color-bg-base);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--color-ink-secondary);
   box-shadow: var(--shadow-sm);
@@ -165,8 +191,7 @@
   background: var(--color-bg-alt);
   color: var(--color-ink-primary);
   border-color: var(--color-turmeric);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px var(--color-gold-glow);
+  transform: translateY(-1px);
 }
 
 .magic-pill-btn.is-active {
@@ -176,21 +201,17 @@
   font-weight: 600;
 }
 
-.sound-toggle.is-playing .sound-wave {
-  animation: soundPulse 1.2s ease infinite;
-}
-
 .theme-selector-wrap {
   position: relative;
 }
 
 .theme-select {
   appearance: none;
-  background: var(--color-bg-surface);
+  background: var(--color-bg-base);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-full);
-  padding: 8px 32px 8px 14px;
-  font-size: 0.88rem;
+  padding: 7px 28px 7px 12px;
+  font-size: 0.84rem;
   font-weight: 500;
   color: var(--color-ink-primary);
   cursor: pointer;
@@ -204,143 +225,60 @@
 
 .theme-arrow {
   position: absolute;
-  right: 12px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   color: var(--color-ink-muted);
 }
 
-/* --------------------------------------------------------------------------
-   3. Hero Storybook Prologue
-   -------------------------------------------------------------------------- */
-
-.hero-storybook {
-  position: relative;
-  text-align: center;
-  padding: 70px 20px 40px;
-  background: var(--hero-glow);
-  border-radius: var(--radius-xl);
-  margin: 24px 0 40px;
-  overflow: hidden;
-}
-
-.hero-watermark {
-  position: absolute;
-  font-family: var(--font-telugu);
-  font-size: clamp(6rem, 16vw, 14rem);
-  font-weight: 800;
-  color: var(--color-turmeric);
-  opacity: 0.06;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-4deg);
-  pointer-events: none;
-  user-select: none;
-  white-space: nowrap;
-}
-
-.storybook-prologue {
-  display: inline-flex;
-  align-items: center;
+/* Mobile View Switcher Tabs (Only visible on small screens) */
+.mobile-view-tabs {
+  display: none;
+  background: var(--color-bg-alt);
+  border-bottom: 1px solid var(--color-border);
+  padding: 6px 12px;
   gap: 8px;
-  background: var(--color-turmeric-light);
-  color: var(--color-terracotta);
-  border: 1px solid rgba(245, 158, 11, 0.4);
-  padding: 6px 18px;
-  border-radius: var(--radius-full);
-  font-size: 0.85rem;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  animation: floatGentle 3s ease-in-out infinite alternate;
+  flex-shrink: 0;
 }
 
-.storybook-prologue-icon {
-  color: var(--color-turmeric);
-  animation: starTwinkle 1.8s ease infinite;
+@media (max-width: 900px) {
+  .mobile-view-tabs {
+    display: flex;
+  }
 }
 
-.hero-main-title {
-  font-family: var(--font-story);
-  font-size: clamp(2.4rem, 5.5vw, 4.2rem);
-  font-weight: 800;
-  line-height: 1.12;
-  color: var(--color-ink-primary);
-  letter-spacing: -0.5px;
-  margin-bottom: 18px;
-}
-
-.hero-main-title em {
-  font-family: var(--font-hand);
-  font-weight: 700;
-  font-style: italic;
-  color: var(--color-terracotta);
-  position: relative;
-  display: inline-block;
-}
-
-.hero-main-title em::after {
-  content: "";
-  position: absolute;
-  left: -4%;
-  bottom: 2px;
-  width: 108%;
-  height: 8px;
-  background: rgba(245, 158, 11, 0.35);
-  border-radius: 4px;
-  z-index: -1;
-  transform: rotate(-1.5deg);
-}
-
-.hero-description {
-  max-width: 680px;
-  margin: 0 auto 32px;
-  font-size: clamp(1.05rem, 2vw, 1.25rem);
-  color: var(--color-ink-secondary);
-  line-height: 1.6;
-}
-
-/* --------------------------------------------------------------------------
-   4. Ornate Gold Filigree & Story Dividers
-   -------------------------------------------------------------------------- */
-
-.filigree-divider {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 16px;
-  margin: 36px 0;
-  color: var(--color-turmeric);
-  opacity: 0.8;
-}
-
-.filigree-line {
+.mobile-tab-btn {
   flex: 1;
-  height: 1px;
-  background: linear-gradient(90deg, transparent, var(--color-border), var(--color-turmeric), var(--color-border), transparent);
+  padding: 8px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--color-ink-secondary);
+  text-align: center;
+  transition: all var(--transition-fast);
 }
 
-.filigree-ornament {
-  font-size: 1.2rem;
-  letter-spacing: 4px;
+.mobile-tab-btn.is-active {
+  background: var(--color-emerald-dark);
+  color: #ffffff;
+  box-shadow: var(--shadow-sm);
 }
 
 /* --------------------------------------------------------------------------
-   5. Keyframe Animations
+   3. Keyframe Animations
    -------------------------------------------------------------------------- */
 
 @keyframes steamRise {
   0% { transform: translateY(0) scale(0.9); opacity: 0.6; }
-  50% { transform: translateY(-6px) scale(1.1); opacity: 1; }
-  100% { transform: translateY(-12px) scale(1.2); opacity: 0.2; }
+  50% { transform: translateY(-5px) scale(1.1); opacity: 1; }
+  100% { transform: translateY(-10px) scale(1.2); opacity: 0.2; }
 }
 
 @keyframes starTwinkle {
   0%, 100% { transform: scale(1); opacity: 0.8; }
-  50% { transform: scale(1.3); opacity: 1; filter: drop-shadow(0 0 6px var(--color-turmeric)); }
+  50% { transform: scale(1.25); opacity: 1; filter: drop-shadow(0 0 6px var(--color-turmeric)); }
 }
 
 @keyframes floatGentle {
@@ -348,23 +286,6 @@
   100% { transform: translateY(-4px); }
 }
 
-@keyframes soundPulse {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.2); color: var(--color-terracotta); }
-}
-
-@keyframes goldShimmer {
-  0% { background-position: -200% 0; }
-  100% { background-position: 200% 0; }
-}
-
-@keyframes foilGleam {
-  0% { opacity: 0; transform: translateX(-100%) rotate(25deg); }
-  50% { opacity: 0.6; }
-  100% { opacity: 0; transform: translateX(200%) rotate(25deg); }
-}
-
-/* Reduced Motion Respect */
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {
     animation-duration: 0.01ms !important;

@@ -2,13 +2,13 @@
 <html lang="en" data-theme="golden-hour">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta
       name="description"
-      content="Amma's Table — An enchanted, living storybook gallery of Telugu family recipe posters with smart culinary search and interactive cook mode."
+      content="Amma's Table — An enchanted full-space living catalog of 24 authentic Telugu family recipe posters with smart culinary search and interactive cook mode."
     />
     <meta name="theme-color" content="#faf5ea" />
-    <title>Amma’s Table — The Living Telugu Recipe Storybook</title>
+    <title>Amma’s Table — The Living Telugu Recipe Catalog</title>
 
     <!-- Google Fonts for Disney Fairytale Typography & Telugu Script -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,8 +28,8 @@
     <!-- Ambient Golden Spice Dust Canvas -->
     <canvas id="ambientCanvas" aria-hidden="true"></canvas>
 
-    <div class="site-wrapper">
-      <!-- Enchanted Site Header -->
+    <div class="app-container">
+      <!-- Enchanted Full-Width Site Header -->
       <header class="magical-header" role="banner">
         <a class="brand-story" href="./" aria-label="Amma's Table Home">
           <div class="cauldron-emblem" aria-hidden="true">
@@ -38,7 +38,7 @@
           </div>
           <div class="brand-titles">
             <span class="brand-fairytale">Amma’s Table</span>
-            <span class="brand-tagline">Living Telugu Recipe Alchemy</span>
+            <span class="brand-tagline">Living Telugu Recipe Folio</span>
           </div>
         </a>
 
@@ -46,7 +46,7 @@
           <!-- Web Audio Procedural Sound Toggle -->
           <button id="soundToggleBtn" class="magic-pill-btn sound-toggle" type="button" aria-label="Toggle enchanted sound effects" title="Procedural magical audio">
             <span class="sound-icon" aria-hidden="true">🔕</span>
-            <span class="sound-label">Enchant Audio</span>
+            <span class="sound-label">Audio</span>
           </button>
 
           <!-- Bookmarked Dishes Shortcut -->
@@ -60,275 +60,190 @@
           <div class="theme-selector-wrap">
             <label class="sr-only" for="themeSelect">Select Lighting Mood</label>
             <select id="themeSelect" class="theme-select" aria-label="Courtyard lighting theme">
-              <option value="golden-hour">🌅 Golden Hour Courtyard</option>
-              <option value="midnight-kitchen">🌙 Midnight Kitchen Magic</option>
-              <option value="festival-lights">🪔 Festival of Lights</option>
+              <option value="golden-hour">🌅 Golden Hour</option>
+              <option value="midnight-kitchen">🌙 Midnight</option>
+              <option value="festival-lights">🪔 Festival</option>
             </select>
             <span class="theme-arrow" aria-hidden="true">▼</span>
           </div>
         </div>
       </header>
 
-      <main role="main">
-        <!-- Hero Storybook Prologue -->
-        <section class="hero-storybook" aria-labelledby="heroTitle">
-          <div class="hero-watermark" aria-hidden="true">అమ్మ వంటల రుచులు</div>
-          
-          <div class="storybook-prologue">
-            <span class="storybook-prologue-icon" aria-hidden="true">✦</span>
-            <span>Once Upon an Andhra Kitchen</span>
-            <span class="storybook-prologue-icon" aria-hidden="true">✦</span>
-          </div>
+      <!-- Mobile View Switcher Tabs (Only visible on screens <= 900px) -->
+      <nav id="mobileViewTabs" class="mobile-view-tabs" role="tablist" aria-label="Mobile View Navigation">
+        <button id="mobileCatalogTabBtn" class="mobile-tab-btn is-active" type="button" role="tab">
+          📖 Recipe Catalog
+        </button>
+        <button id="mobileStageTabBtn" class="mobile-tab-btn" type="button" role="tab">
+          🍲 Current Feast
+        </button>
+      </nav>
 
-          <h1 id="heroTitle" class="hero-main-title">
-            Where Every Recipe is a<br />
-            <em>Living Fairytale.</em>
-          </h1>
-
-          <p class="hero-description">
-            A hand-illustrated heirloom vault of 24 beloved Telugu family recipes.
-            Search by craving, ask Amma what to cook, or explore the magical spice dabba.
-          </p>
-        </section>
-
-        <!-- The Magic Spice Dabba (Kitchen Oracle) -->
-        <section class="spice-dabba-card" aria-labelledby="oracleTitle">
-          <div class="spice-dabba-header">
-            <div class="spice-dabba-title-wrap">
-              <div class="spice-dabba-icon" aria-hidden="true">🍲</div>
-              <div>
-                <h2 id="oracleTitle" class="spice-dabba-title">The Magic Spice Dabba</h2>
-                <p class="spice-dabba-subtitle">Can’t decide what to cook? Let Amma’s spice box choose your feast.</p>
-              </div>
-            </div>
-            <button id="spinOracleBtn" class="spin-oracle-btn" type="button">
-              <span>🎲 Spin Amma’s Spice Box</span>
-            </button>
-          </div>
-
-          <!-- Craving Spells -->
-          <p class="craving-spells-label">Or whisper your heart's craving:</p>
-          <div class="craving-spells-row" role="group" aria-label="Instant craving spells">
-            <button class="spell-chip" type="button" data-craving="something crispy for rainy evening">
-              <span>🌧️ Crispy for Rainy Day</span>
-            </button>
-            <button class="spell-chip" type="button" data-craving="comforting creamy like warm hug">
-              <span>💛 Creamy Warm Hug</span>
-            </button>
-            <button class="spell-chip" type="button" data-craving="fiery spicy bold flavors">
-              <span>🔥 Fiery & Bold</span>
-            </button>
-            <button class="spell-chip" type="button" data-craving="tangy sour tamarind pulusu">
-              <span>🍋 Tangy Pulusu</span>
-            </button>
-            <button class="spell-chip" type="button" data-craving="healthy potato without much oil">
-              <span>🌿 Zero-Oil Magic</span>
-            </button>
-            <button class="spell-chip" type="button" data-craving="flame roasted smoky brinjal chutney">
-              <span>🌶️ Smoky Roasted Chutney</span>
-            </button>
-          </div>
-
-          <!-- Revealed Oracle Card (Hidden until spun) -->
-          <div id="oracleResultWrap" class="oracle-result-box" hidden>
-            <div class="oracle-dish-preview">
-              <img id="oracleDishThumb" class="oracle-dish-thumb" src="" alt="" />
-              <div class="oracle-dish-info">
-                <h4 id="oracleDishTitle">Dish Name</h4>
-                <p id="oracleDishNote">Amma’s blessing note</p>
-              </div>
-            </div>
-            <button id="oracleOpenBtn" class="spin-oracle-btn" type="button">
-              <span>Open Recipe Poster ↗</span>
-            </button>
-          </div>
-        </section>
-
-        <!-- Intelligent Culinary Search Section -->
-        <section class="search-section" aria-label="Recipe Search and Discovery">
-          <div class="search-bar-wrap">
-            <span class="search-magical-icon" aria-hidden="true">✨</span>
-            <label class="sr-only" for="searchInput">Search recipes by ingredients, Telugu phonetics, or cravings</label>
-            <input
-              id="searchInput"
-              class="search-input-field"
-              type="search"
-              autocomplete="off"
-              spellcheck="false"
-              placeholder="Ask Amma: Try “potato with coconut”, “smoky pachadi”, “aloo fry”, or “వంకాయ”..."
-            />
-            <kbd class="search-hotkey-badge" title="Press / to focus">/</kbd>
-            <button id="clearSearchBtn" class="search-clear-btn" type="button" title="Clear search" hidden>✕</button>
-          </div>
-
-          <div class="search-controls-bar">
-            <div class="search-mode-toggles" role="group" aria-label="Search Mode">
-              <button class="search-mode-btn is-active" type="button">✦ Intelligent Craving Search</button>
-            </div>
-            <span class="search-hint-text" id="searchHint">Understands typos, Telugu words, ingredients, and flavor cravings.</span>
-          </div>
-
-          <!-- Category Filter Ribbon -->
-          <div id="categoryRibbon" class="filter-ribbon" role="group" aria-label="Filter by ingredient family">
-            <!-- Dynamically populated with live counts -->
-          </div>
-
-          <!-- Flavor & Style Quick Tags -->
-          <div id="flavorFiltersRow" class="flavor-filters-row" role="group" aria-label="Filter by preparation style">
-            <button class="flavor-tag-btn" type="button" data-flavor="fry">🔥 Crispy Fry / Vepudu</button>
-            <button class="flavor-tag-btn" type="button" data-flavor="pachadi">🌶️ Roti Pachadi / Chutney</button>
-            <button class="flavor-tag-btn" type="button" data-flavor="curry">🍲 Rich Gravy / Curry</button>
-            <button class="flavor-tag-btn" type="button" data-flavor="dal">🥣 Hearty Dal / Pappu</button>
-            <button class="flavor-tag-btn" type="button" data-flavor="zero-oil">🌿 Zero / Minimal Oil</button>
-            <button class="flavor-tag-btn" type="button" data-flavor="creamy">🥥 Creamy / Curd</button>
-          </div>
-        </section>
-
-        <!-- The Living Gallery -->
-        <section id="gallerySection" class="gallery-section" aria-labelledby="galleryHeading">
-          <div class="gallery-header-bar">
-            <div class="gallery-title-group">
-              <h2 id="galleryHeading">The Heirloom Wall</h2>
-              <p id="resultsSummary" class="gallery-results-count">Gathering recipes from Amma’s kitchen…</p>
+      <!-- Full-Space Living Catalog & Stage Layout -->
+      <div class="catalog-app-layout">
+        <!-- ==================================================================
+             LEFT PANE: THE RECIPE FOLIO (CATALOG SIDEBAR)
+             ================================================================== -->
+        <aside id="catalogSidebar" class="catalog-sidebar" aria-label="Recipe Catalog Navigation">
+          <!-- Search & Filter Controls -->
+          <div class="catalog-controls-pane">
+            <div class="catalog-search-bar">
+              <span class="search-icon-sparkle" aria-hidden="true">✨</span>
+              <label class="sr-only" for="catalogSearchInput">Search recipes by ingredients, Telugu phonetics, or cravings</label>
+              <input
+                id="catalogSearchInput"
+                class="catalog-search-input"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Ask Amma: “potato with coconut”, “వంకాయ”, “crispy”..."
+              />
+              <kbd class="search-kbd-hint" title="Press / to focus">/</kbd>
+              <button id="catalogClearSearchBtn" class="search-clear-btn" type="button" title="Clear search" hidden>✕</button>
             </div>
 
-            <div class="gallery-actions">
-              <div class="sort-select-wrap">
-                <label for="sortSelect">Sort:</label>
-                <select id="sortSelect" class="sort-select">
-                  <option value="featured">✦ Amma’s Featured</option>
-                  <option value="az">A–Z Poetic Titles</option>
-                  <option value="quick">Quickest Prep</option>
-                  <option value="steps">Most Steps</option>
-                  <option value="favorites">★ Starred Dishes</option>
-                </select>
-              </div>
+            <!-- Spice Dabba Quick Oracle Button -->
+            <div class="oracle-quick-bar">
+              <button id="spinOracleBtn" class="spin-oracle-btn" type="button">
+                <span>🎲 Spin Amma’s Spice Box</span>
+              </button>
+            </div>
 
-              <button id="densityToggleBtn" class="density-btn" type="button" aria-label="Toggle compact gallery view" title="Toggle compact view">
-                ⊞
+            <!-- Category Filter Ribbon -->
+            <div id="catalogCategoryRibbon" class="catalog-category-ribbon" role="group" aria-label="Category Filters">
+              <!-- Dynamically populated -->
+            </div>
+
+            <!-- Craving Spells Row -->
+            <div class="catalog-cravings-row" role="group" aria-label="Quick Cravings">
+              <button class="spell-mini-chip" type="button" data-craving="crispy for rainy evening">🌧️ Crispy</button>
+              <button class="spell-mini-chip" type="button" data-craving="creamy warm hug">💛 Creamy</button>
+              <button class="spell-mini-chip" type="button" data-craving="fiery spicy bold">🔥 Fiery</button>
+              <button class="spell-mini-chip" type="button" data-craving="tangy sour pulusu">🍋 Tangy</button>
+              <button class="spell-mini-chip" type="button" data-craving="potato without much oil">🌿 Zero-Oil</button>
+            </div>
+          </div>
+
+          <!-- Catalog Count Summary -->
+          <div id="catalogListSummary" class="catalog-list-summary">
+            Loading Amma’s Folio…
+          </div>
+
+          <!-- Scrollable Catalog Items List -->
+          <div id="catalogRecipeList" class="catalog-recipe-list" role="list">
+            <!-- Dynamically populated items -->
+          </div>
+        </aside>
+
+        <!-- ==================================================================
+             RIGHT PANE: THE GRAND RECIPE STAGE
+             ================================================================== -->
+        <main id="recipeStage" class="recipe-stage is-hidden-mobile" role="main" aria-label="Selected Recipe Showcase">
+          <!-- Stage Top Hero Banner -->
+          <div class="stage-hero-banner">
+            <button id="mobileBackBtn" class="mobile-back-btn" type="button">
+              ← Catalog
+            </button>
+            <div class="stage-title-wrap">
+              <h1 id="stageTeluguTitle" class="stage-telugu-title">వంకాయ కూర</h1>
+              <h2 id="stageEnglishTitle" class="stage-english-title">Vankaya Kura / Brinjal Curry</h2>
+              <p id="stageStoryQuote" class="stage-story-quote">Amma says: “A cherished heirloom recipe from our home.”</p>
+            </div>
+
+            <div class="stage-actions-group">
+              <button id="stageBookmarkBtn" class="magic-pill-btn" type="button" title="Star recipe">
+                <span>★</span> <span>Favorite</span>
+              </button>
+              <a id="stageWaxSealBtn" class="wax-seal-btn" href="" download>
+                <span>🔏 Download Poster (1536×1024 PNG)</span>
+              </a>
+              <button id="stageCookModeBtn" class="launch-cook-btn" type="button">
+                <span>🍳 Cook Mode</span>
               </button>
             </div>
           </div>
 
-          <!-- Living 3D Recipe Cards Grid -->
-          <div id="recipeGrid" class="recipe-grid" aria-live="polite">
-            <!-- Dynamic 3D Cards rendered here -->
-          </div>
-        </section>
-      </main>
+          <!-- Stage Navigation Tabs -->
+          <nav class="stage-tabs-ribbon" role="tablist" aria-label="Recipe Detail Spreads">
+            <button class="stage-tab-btn is-active" type="button" role="tab" data-tab="stagePanePoster">
+              <span>📜</span> <span>The Masterwork Poster</span>
+            </button>
+            <button class="stage-tab-btn" type="button" role="tab" data-tab="stagePaneAlchemy">
+              <span>🌿</span> <span>Ingredients & Alchemy</span>
+            </button>
+            <button class="stage-tab-btn" type="button" role="tab" data-tab="stagePaneMethod">
+              <span>🍳</span> <span>Step-by-Step Method</span>
+            </button>
+            <button class="stage-tab-btn" type="button" role="tab" data-tab="stagePaneSecrets">
+              <span>✍️</span> <span>Amma’s Wisdom & Secrets</span>
+            </button>
+          </nav>
 
-      <!-- Fairytale Footer -->
-      <footer class="site-footer" style="margin-top: 80px; padding-top: 30px; border-top: 1px solid var(--color-border); display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px; font-size: 0.9rem; color: var(--color-ink-muted);" role="contentinfo">
-        <div>
-          <strong style="color: var(--color-ink-primary);">Amma’s Table</strong> — Preserving authentic Telugu family traditions with love and spices.
-        </div>
-        <a href="#heroTitle" style="color: var(--color-terracotta); font-weight: 600;">Return to Top ↑</a>
-      </footer>
-    </div>
-
-    <!-- ======================================================================
-         THE HEIRLOOM GRIMOIRE MODAL (FULL RECIPE VIEWER)
-         ====================================================================== -->
-    <div id="grimoireBackdrop" class="grimoire-backdrop" role="dialog" aria-modal="true" aria-labelledby="grimoireTitleTelugu">
-      <div class="grimoire-book">
-        <!-- Grimoire Header -->
-        <div class="grimoire-header">
-          <div class="grimoire-titles-wrap">
-            <h2 id="grimoireTitleTelugu">వంకాయ కూర</h2>
-            <p id="grimoireTitleEnglish">Vankaya Kura / Brinjal Curry</p>
-          </div>
-          <button id="grimoireCloseBtn" class="grimoire-close-btn" type="button" aria-label="Close recipe viewer">✕</button>
-        </div>
-
-        <!-- Grimoire Tabs -->
-        <div class="grimoire-tabs" role="tablist">
-          <button class="grimoire-tab-btn is-active" type="button" role="tab" data-tab="posterTab">
-            <span>📜</span> <span>The Masterwork Poster</span>
-          </button>
-          <button class="grimoire-tab-btn" type="button" role="tab" data-tab="alchemyTab">
-            <span>🌿</span> <span>Ingredients & Alchemy</span>
-          </button>
-          <button class="grimoire-tab-btn" type="button" role="tab" data-tab="secretsTab">
-            <span>✍️</span> <span>Amma’s Wisdom & Secrets</span>
-          </button>
-        </div>
-
-        <!-- Grimoire Tab Contents -->
-        <div class="grimoire-body">
-          <!-- Tab 1: Poster Showcase & Wax Seal Download -->
-          <div id="posterTab" class="grimoire-tab-pane is-active">
-            <div class="poster-showcase-wrap">
-              <div class="poster-framed-view">
-                <img id="grimoirePosterImg" src="" alt="Recipe Poster Art" />
+          <!-- Stage Body Content -->
+          <div class="stage-body-content">
+            <!-- Spread 1: The Masterwork Poster -->
+            <section id="stagePanePoster" class="stage-pane is-active" role="tabpanel">
+              <div class="poster-full-showcase">
+                <div class="poster-master-frame">
+                  <img id="stagePosterImg" class="poster-master-img" src="" alt="Recipe Poster Art" />
+                </div>
               </div>
-              <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-                <a id="grimoireWaxSealBtn" class="wax-seal-btn" href="" download>
-                  <span>🔏 Download Original Master Poster (1536×1024 PNG)</span>
-                </a>
-                <button id="startCookModeFromModalBtn" class="spin-oracle-btn" type="button">
-                  <span>🍳 Launch Amma’s Cook Mode</span>
-                </button>
-              </div>
-            </div>
-          </div>
+            </section>
 
-          <!-- Tab 2: Ingredients & Checklist with Portion Scaler -->
-          <div id="alchemyTab" class="grimoire-tab-pane">
-            <div class="alchemy-controls">
-              <div>
-                <h3 style="font-family: var(--font-story); font-size: 1.25rem;">Pantry Checklist</h3>
-                <p style="font-size: 0.88rem; color: var(--color-ink-muted);">Click items as you gather them from your shelves.</p>
-              </div>
-              <div class="potion-scaler">
-                <span style="font-size: 0.88rem; font-weight: 600;">Scale Feast:</span>
-                <button class="scale-btn is-active" type="button" data-scale="1">1x</button>
-                <button class="scale-btn" type="button" data-scale="2">2x</button>
-                <button class="scale-btn" type="button" data-scale="4">4x</button>
-              </div>
-            </div>
-
-            <div id="grimoireChecklist" class="ingredient-checklist">
-              <!-- Dynamically populated checklist items -->
-            </div>
-          </div>
-
-          <!-- Tab 3: Amma's Wisdom, Steps & Recipe Secrets -->
-          <div id="secretsTab" class="grimoire-tab-pane">
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 28px;">
-              <div>
-                <h3 style="font-family: var(--font-story); font-size: 1.3rem; margin-bottom: 14px; color: var(--color-terracotta);">
-                  ✦ The Method
-                </h3>
-                <ol id="grimoireStepsList" style="padding-left: 20px; line-height: 1.7; color: var(--color-ink-primary);">
-                  <!-- Dynamically populated steps -->
-                </ol>
+            <!-- Spread 2: Ingredients & Alchemy Checklist -->
+            <section id="stagePaneAlchemy" class="stage-pane" role="tabpanel">
+              <div class="alchemy-stage-header">
+                <div>
+                  <h3 style="font-family: var(--font-story); font-size: 1.3rem; margin-bottom: 2px;">Pantry Checklist</h3>
+                  <p style="font-size: 0.88rem; color: var(--color-ink-muted);">Check off items as you gather them from your kitchen shelves.</p>
+                </div>
+                <div class="potion-scaler">
+                  <span style="font-size: 0.88rem; font-weight: 600;">Scale Feast:</span>
+                  <button class="scale-btn is-active" type="button" data-scale="1">1x</button>
+                  <button class="scale-btn" type="button" data-scale="2">2x</button>
+                  <button class="scale-btn" type="button" data-scale="4">4x</button>
+                </div>
               </div>
 
-              <div>
-                <h3 style="font-family: var(--font-story); font-size: 1.3rem; margin-bottom: 14px; color: var(--color-turmeric);">
-                  💛 Why You’ll Love This Dish
-                </h3>
-                <ul id="grimoireReasonsList" style="padding-left: 20px; line-height: 1.7; color: var(--color-ink-secondary); margin-bottom: 24px;">
-                  <!-- Dynamically populated reasons -->
-                </ul>
+              <div id="stageChecklist" class="ingredient-checklist-grid">
+                <!-- Dynamically populated checklist items -->
+              </div>
+            </section>
 
-                <div id="grimoireTipsWrap" hidden>
-                  <h4 style="font-family: var(--font-story); font-size: 1.15rem; color: var(--color-saffron); margin-bottom: 8px;">
-                    ✨ Tips & Variations
-                  </h4>
-                  <ul id="grimoireTipsList" style="padding-left: 20px; line-height: 1.6; color: var(--color-ink-secondary); margin-bottom: 20px;">
-                    <!-- Tips -->
+            <!-- Spread 3: Step-by-Step Method -->
+            <section id="stagePaneMethod" class="stage-pane" role="tabpanel">
+              <div id="stageStepsContainer" class="method-steps-container">
+                <!-- Dynamically populated process step cards -->
+              </div>
+            </section>
+
+            <!-- Spread 4: Amma's Secrets & Nutrition -->
+            <section id="stagePaneSecrets" class="stage-pane" role="tabpanel">
+              <div class="secrets-layout-grid">
+                <div class="secret-box-card">
+                  <h3>💛 Why You’ll Love This Dish</h3>
+                  <ul id="stageReasonsList" class="secret-reasons-list">
+                    <!-- Reasons -->
                   </ul>
+
+                  <div id="stageTipsWrap" style="margin-top: 24px;" hidden>
+                    <h4 style="font-family: var(--font-story); font-size: 1.15rem; color: var(--color-saffron); margin-bottom: 8px;">
+                      ✨ Tips & Variations
+                    </h4>
+                    <ul id="stageTipsList" class="secret-reasons-list">
+                      <!-- Tips -->
+                    </ul>
+                  </div>
                 </div>
 
-                <div style="background: var(--color-bg-alt); padding: 14px 18px; border-radius: var(--radius-md); border-left: 4px solid var(--color-emerald-dark);">
-                  <strong style="font-size: 0.85rem; text-transform: uppercase; color: var(--color-emerald-dark); display: block; margin-bottom: 4px;">Nutrition Spotlight</strong>
-                  <p id="grimoireNutritionNote" style="font-size: 0.88rem; color: var(--color-ink-secondary);"></p>
+                <div class="secret-box-card" style="border-left: 4px solid var(--color-emerald-dark);">
+                  <h3 style="color: var(--color-emerald-dark);">🍃 Nutrition Spotlight</h3>
+                  <p id="stageNutritionNote" style="font-size: 0.95rem; color: var(--color-ink-secondary); line-height: 1.6;"></p>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
-        </div>
+        </main>
       </div>
     </div>
 

@@ -1,12 +1,12 @@
 /**
- * AMMA'S TABLE — MASTER APPLICATION CONTROLLER
+ * AMMA'S TABLE — FULL-SPACE LIVING CATALOG & STAGE CONTROLLER
  * Connects:
  * - Recipe Database & Pre-Compiled Catalog
  * - Intelligent Typo-Tolerant Search & Craving Engine
- * - 3D Living Cards & Golden Spice Ambient Canvas
- * - Heirloom Grimoire Storybook Modal
- * - Interactive Cook Mode & Kitchen Timer
- * - Dynamic Disney Lighting Themes
+ * - Illuminated Catalog Folio (Left) & Grand Recipe Stage (Right)
+ * - Mobile/Tablet Responsive View Management
+ * - Interactive Cook Mode & Simmer Timer
+ * - Procedural Web Audio Soundscape
  */
 
 import { MagicalFX } from './magical-fx.js';
@@ -16,14 +16,16 @@ import { CookModeController } from './cook-mode.js';
 class AmmaApp {
   constructor() {
     this.recipes = [];
+    this.activeRecipe = null;
+    this.portionMultiplier = 1;
     this.state = {
       query: '',
       category: 'all',
       flavor: 'all',
       sort: 'featured',
       theme: localStorage.getItem('amma_theme') || 'golden-hour',
-      isCompact: localStorage.getItem('amma_compact') === 'true',
-      bookmarkedIds: new Set(JSON.parse(localStorage.getItem('amma_bookmarks') || '[]'))
+      bookmarkedIds: new Set(JSON.parse(localStorage.getItem('amma_bookmarks') || '[]')),
+      mobileView: 'catalog' // 'catalog' or 'stage'
     };
 
     this.fx = new MagicalFX();
@@ -38,56 +40,52 @@ class AmmaApp {
 
   initElements() {
     this.el = {
-      // Theme & Tools
+      // Header controls
       themeSelect: document.getElementById('themeSelect'),
       soundToggleBtn: document.getElementById('soundToggleBtn'),
       bookmarkFilterBtn: document.getElementById('bookmarkFilterBtn'),
       bookmarkCountBadge: document.getElementById('bookmarkCountBadge'),
 
-      // Spice Dabba Oracle
+      // Mobile View Tabs
+      mobileViewTabs: document.getElementById('mobileViewTabs'),
+      mobileCatalogTabBtn: document.getElementById('mobileCatalogTabBtn'),
+      mobileStageTabBtn: document.getElementById('mobileStageTabBtn'),
+      mobileBackBtn: document.getElementById('mobileBackBtn'),
+
+      // Sidebar controls
+      catalogSidebar: document.getElementById('catalogSidebar'),
+      searchInput: document.getElementById('catalogSearchInput'),
+      clearSearchBtn: document.getElementById('catalogClearSearchBtn'),
+      categoryRibbon: document.getElementById('catalogCategoryRibbon'),
       spinOracleBtn: document.getElementById('spinOracleBtn'),
-      oracleResultWrap: document.getElementById('oracleResultWrap'),
-      oracleDishThumb: document.getElementById('oracleDishThumb'),
-      oracleDishTitle: document.getElementById('oracleDishTitle'),
-      oracleDishNote: document.getElementById('oracleDishNote'),
-      oracleOpenBtn: document.getElementById('oracleOpenBtn'),
+      catalogSummary: document.getElementById('catalogListSummary'),
+      catalogRecipeList: document.getElementById('catalogRecipeList'),
 
-      // Search & Filters
-      searchInput: document.getElementById('searchInput'),
-      clearSearchBtn: document.getElementById('clearSearchBtn'),
-      searchModeBtns: document.querySelectorAll('.search-mode-btn'),
-      searchHint: document.getElementById('searchHint'),
-      categoryRibbon: document.getElementById('categoryRibbon'),
-      flavorFiltersRow: document.getElementById('flavorFiltersRow'),
-      sortSelect: document.getElementById('sortSelect'),
-      densityToggleBtn: document.getElementById('densityToggleBtn'),
+      // Grand Stage elements
+      recipeStage: document.getElementById('recipeStage'),
+      stageTeluguTitle: document.getElementById('stageTeluguTitle'),
+      stageEnglishTitle: document.getElementById('stageEnglishTitle'),
+      stageStoryQuote: document.getElementById('stageStoryQuote'),
+      stagePosterImg: document.getElementById('stagePosterImg'),
+      stageWaxSealBtn: document.getElementById('stageWaxSealBtn'),
+      stageBookmarkBtn: document.getElementById('stageBookmarkBtn'),
+      stageCookModeBtn: document.getElementById('stageCookModeBtn'),
+      stageTabBtns: document.querySelectorAll('.stage-tab-btn'),
+      stagePanes: document.querySelectorAll('.stage-pane'),
 
-      // Results
-      recipeGrid: document.getElementById('recipeGrid'),
-      resultsSummary: document.getElementById('resultsSummary'),
+      // Stage Tab 2 (Alchemy)
+      stageChecklist: document.getElementById('stageChecklist'),
+      scaleBtns: document.querySelectorAll('.scale-btn'),
 
-      // Grimoire Modal
-      grimoireBackdrop: document.getElementById('grimoireBackdrop'),
-      grimoireCloseBtn: document.getElementById('grimoireCloseBtn'),
-      grimoireTitleTelugu: document.getElementById('grimoireTitleTelugu'),
-      grimoireTitleEnglish: document.getElementById('grimoireTitleEnglish'),
-      grimoirePosterImg: document.getElementById('grimoirePosterImg'),
-      grimoireWaxSealBtn: document.getElementById('grimoireWaxSealBtn'),
-      grimoireChecklist: document.getElementById('grimoireChecklist'),
-      grimoireStepsList: document.getElementById('grimoireStepsList'),
-      grimoireReasonsList: document.getElementById('grimoireReasonsList'),
-      grimoireTipsWrap: document.getElementById('grimoireTipsWrap'),
-      grimoireTipsList: document.getElementById('grimoireTipsList'),
-      grimoireNutritionNote: document.getElementById('grimoireNutritionNote'),
-      grimoireTabBtns: document.querySelectorAll('.grimoire-tab-btn'),
-      grimoireTabPanes: document.querySelectorAll('.grimoire-tab-pane'),
-      startCookModeFromModalBtn: document.getElementById('startCookModeFromModalBtn'),
-      scaleBtns: document.querySelectorAll('.scale-btn')
+      // Stage Tab 3 (Method)
+      stageStepsContainer: document.getElementById('stageStepsContainer'),
+
+      // Stage Tab 4 (Secrets)
+      stageReasonsList: document.getElementById('stageReasonsList'),
+      stageTipsWrap: document.getElementById('stageTipsWrap'),
+      stageTipsList: document.getElementById('stageTipsList'),
+      stageNutritionNote: document.getElementById('stageNutritionNote')
     };
-
-    if (this.state.isCompact) {
-      this.el.recipeGrid.classList.add('is-compact');
-    }
   }
 
   /* --------------------------------------------------------------------------
@@ -101,7 +99,7 @@ class AmmaApp {
   }
 
   /* --------------------------------------------------------------------------
-     Data Loading
+     Data Loading & Startup
      -------------------------------------------------------------------------- */
   async loadCatalog() {
     try {
@@ -112,72 +110,139 @@ class AmmaApp {
 
       this.updateBookmarkBadge();
       this.renderCategoryRibbon();
-      this.renderRecipes();
+
+      // Check URL hash for direct recipe link (e.g. #gutti-vankaya)
+      const hashId = window.location.hash.replace('#', '').trim();
+      const initialRecipe = this.recipes.find(r => r.id === hashId || r.slug === hashId) || this.recipes[0];
+      
+      this.setActiveRecipe(initialRecipe, false);
+      this.renderCatalogList();
     } catch (err) {
       console.error('Failed to load recipe catalog:', err);
-      this.el.resultsSummary.textContent = 'Unable to open Amma’s cookbook. Please serve from a local server.';
+      this.el.catalogSummary.textContent = 'Unable to load recipes from local server.';
     }
   }
 
   /* --------------------------------------------------------------------------
-     Bookmarks & Favorites
+     Active Recipe Selection & Grand Stage Rendering
      -------------------------------------------------------------------------- */
-  toggleBookmark(recipeId, buttonEl) {
-    const has = this.state.bookmarkedIds.has(recipeId);
-    if (has) {
-      this.state.bookmarkedIds.delete(recipeId);
-      buttonEl.classList.remove('is-bookmarked');
-      this.fx.showToast('Removed from Amma’s Starred Dishes');
+  setActiveRecipe(recipe, switchMobileView = true) {
+    if (!recipe) return;
+    this.activeRecipe = recipe;
+    this.portionMultiplier = 1;
+
+    // Update URL hash smoothly
+    if (window.history.replaceState) {
+      window.history.replaceState(null, null, `#${recipe.slug}`);
+    }
+
+    // Render Stage
+    this.renderActiveRecipeStage();
+
+    // Update active highlight in catalog list
+    document.querySelectorAll('.catalog-item').forEach(item => {
+      const isTarget = item.dataset.recipeId === recipe.id;
+      item.classList.toggle('is-active', isTarget);
+      if (isTarget) {
+        item.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      }
+    });
+
+    // Update Stage Bookmark Star
+    const isBookmarked = this.state.bookmarkedIds.has(recipe.id);
+    if (this.el.stageBookmarkBtn) {
+      this.el.stageBookmarkBtn.classList.toggle('is-bookmarked', isBookmarked);
+      this.el.stageBookmarkBtn.title = isBookmarked ? 'Starred in Amma’s Favorites' : 'Star this recipe';
+    }
+
+    // Switch mobile view if requested
+    if (switchMobileView && window.innerWidth <= 900) {
+      this.setMobileView('stage');
+    }
+  }
+
+  renderActiveRecipeStage() {
+    const r = this.activeRecipe;
+    if (!r) return;
+
+    // Header Titles & Story
+    this.el.stageTeluguTitle.textContent = r.titleOriginal;
+    this.el.stageEnglishTitle.textContent = r.titleEnglish;
+    this.el.stageStoryQuote.textContent = r.storyNote ? `Amma says: “${r.storyNote}”` : `A cherished heirloom from Amma’s kitchen.`;
+
+    // Master Poster Frame
+    this.el.stagePosterImg.src = r.assets.webp;
+    this.el.stagePosterImg.alt = `${r.titleEnglish} master illustrated poster`;
+
+    // Wax Seal Poster Download (Original 1536x1024 PNG)
+    this.el.stageWaxSealBtn.href = r.assets.png;
+    this.el.stageWaxSealBtn.download = `${r.slug}.png`;
+
+    // Tab 2: Ingredients Checklist
+    this.renderChecklist();
+
+    // Tab 3: Numbered Method Steps
+    this.el.stageStepsContainer.replaceChildren(
+      ...r.steps.map((step, idx) => {
+        const card = document.createElement('div');
+        card.className = 'method-step-card';
+        card.innerHTML = `
+          <div class="method-step-badge">${idx + 1}</div>
+          <div class="method-step-text">${step}</div>
+        `;
+        return card;
+      })
+    );
+
+    // Tab 4: Secrets & Nutrition
+    this.el.stageReasonsList.replaceChildren(
+      ...r.reasons.map(reason => {
+        const li = document.createElement('li');
+        li.textContent = reason;
+        return li;
+      })
+    );
+
+    if (r.tips && r.tips.length) {
+      this.el.stageTipsWrap.hidden = false;
+      this.el.stageTipsList.replaceChildren(
+        ...r.tips.map(tip => {
+          const li = document.createElement('li');
+          li.textContent = tip;
+          return li;
+        })
+      );
     } else {
-      this.state.bookmarkedIds.add(recipeId);
-      buttonEl.classList.add('is-bookmarked');
-      this.fx.playStarChime();
-      this.fx.showToast('★ Saved to Amma’s Starred Dishes!');
+      this.el.stageTipsWrap.hidden = true;
     }
-    localStorage.setItem('amma_bookmarks', JSON.stringify(Array.from(this.state.bookmarkedIds)));
-    this.updateBookmarkBadge();
+
+    this.el.stageNutritionNote.textContent = r.nutrition || 'Wholesome homestyle preparation.';
   }
 
-  updateBookmarkBadge() {
-    const count = this.state.bookmarkedIds.size;
-    if (this.el.bookmarkCountBadge) {
-      this.el.bookmarkCountBadge.textContent = count;
-      this.el.bookmarkCountBadge.style.display = count > 0 ? 'inline-block' : 'none';
-    }
+  renderChecklist() {
+    const r = this.activeRecipe;
+    if (!r) return;
+
+    const allItems = r.ingredientGroups.flatMap(g => g.items);
+    this.el.stageChecklist.replaceChildren(
+      ...allItems.map(item => {
+        const div = document.createElement('div');
+        div.className = 'checklist-item';
+        div.innerHTML = `
+          <span class="checklist-box">✓</span>
+          <span class="checklist-text">${item}</span>
+        `;
+        div.onclick = () => {
+          div.classList.toggle('is-checked');
+          this.fx.playPageFlip();
+        };
+        return div;
+      })
+    );
   }
 
   /* --------------------------------------------------------------------------
-     The Magic Spice Dabba (Oracle)
-     -------------------------------------------------------------------------- */
-  spinSpiceBox() {
-    if (!this.recipes.length) return;
-    this.fx.playFairyChime();
-
-    // Whimsical spin sound and animation
-    const btn = this.el.spinOracleBtn;
-    btn.style.transform = 'scale(0.95) rotate(360deg)';
-    btn.disabled = true;
-
-    setTimeout(() => {
-      btn.style.transform = '';
-      btn.disabled = false;
-
-      // Pick a random recipe
-      const picked = this.recipes[Math.floor(Math.random() * this.recipes.length)];
-      this.el.oracleDishThumb.src = picked.assets.thumb;
-      this.el.oracleDishThumb.alt = picked.titleEnglish;
-      this.el.oracleDishTitle.textContent = `${picked.titleOriginal} — ${picked.titleEnglish}`;
-      this.el.oracleDishNote.textContent = `Amma says: “${picked.storyNote}”`;
-      this.el.oracleResultWrap.hidden = false;
-      this.el.oracleOpenBtn.onclick = () => this.openGrimoire(picked);
-
-      this.fx.playStarChime();
-      this.fx.showToast(`✨ The Spice Dabba chose ${picked.titleEnglish}!`);
-    }, 600);
-  }
-
-  /* --------------------------------------------------------------------------
-     Category & Filter Ribbon
+     Sidebar Catalog List Rendering
      -------------------------------------------------------------------------- */
   renderCategoryRibbon() {
     const categories = [
@@ -200,12 +265,11 @@ class AmmaApp {
         const chip = document.createElement('button');
         chip.className = `filter-chip${this.state.category === cat.id ? ' is-active' : ''}`;
         chip.type = 'button';
-        chip.dataset.category = cat.id;
         chip.innerHTML = `<span>${cat.icon}</span> <span>${cat.label}</span> <span class="filter-count-badge">${counts[cat.id] || 0}</span>`;
         chip.onclick = () => {
           this.state.category = cat.id;
           this.renderCategoryRibbon();
-          this.renderRecipes();
+          this.renderCatalogList();
           this.fx.playPageFlip();
         };
         return chip;
@@ -213,10 +277,7 @@ class AmmaApp {
     );
   }
 
-  /* --------------------------------------------------------------------------
-     Recipe Cards Grid Rendering
-     -------------------------------------------------------------------------- */
-  renderRecipes() {
+  renderCatalogList() {
     const results = this.searchEngine.search({
       query: this.state.query,
       category: this.state.category,
@@ -225,235 +286,194 @@ class AmmaApp {
       bookmarkedIds: this.state.bookmarkedIds
     });
 
-    this.el.recipeGrid.replaceChildren();
+    this.el.catalogRecipeList.replaceChildren();
 
     if (!results.length) {
-      const emptyWrap = document.createElement('div');
-      emptyWrap.className = 'empty-state-box';
-      emptyWrap.style.gridColumn = '1 / -1';
-      emptyWrap.style.textAlign = 'center';
-      emptyWrap.style.padding = '60px 20px';
-      emptyWrap.innerHTML = `
-        <div style="font-size: 3rem; margin-bottom: 14px;">🪄</div>
-        <h3 style="font-family: var(--font-story); font-size: 1.6rem; margin-bottom: 8px;">No Spells Found in Amma’s Pantry</h3>
-        <p style="color: var(--color-ink-muted); max-width: 480px; margin: 0 auto 20px;">
-          Try searching for “potato without much oil”, “roasted chutney”, or clear your filters to explore all recipes.
-        </p>
-        <button class="spin-oracle-btn" id="resetFiltersBtn" type="button">Reset All Filters ✦</button>
+      const empty = document.createElement('div');
+      empty.style.padding = '30px 16px';
+      empty.style.textAlign = 'center';
+      empty.innerHTML = `
+        <div style="font-size: 2.2rem; margin-bottom: 8px;">🪄</div>
+        <p style="font-weight: 600; color: var(--color-ink-primary);">No recipes found in Amma’s Folio</p>
+        <p style="font-size: 0.82rem; color: var(--color-ink-muted); margin-bottom: 12px;">Try clearing filters or search terms.</p>
+        <button id="catalogResetBtn" class="spin-oracle-btn" type="button">Reset Search ✦</button>
       `;
-      emptyWrap.querySelector('#resetFiltersBtn').onclick = () => {
-        this.resetAllFilters();
-      };
-      this.el.recipeGrid.appendChild(emptyWrap);
-    } else {
-      const frag = document.createDocumentFragment();
-      results.forEach(({ recipe, matchReasons }, idx) => {
-        const cardWrap = this.createCardElement(recipe, matchReasons, idx);
-        frag.appendChild(cardWrap);
-      });
-      this.el.recipeGrid.appendChild(frag);
+      empty.querySelector('#catalogResetBtn').onclick = () => this.resetFilters();
+      this.el.catalogRecipeList.appendChild(empty);
+      this.el.catalogSummary.textContent = `0 recipes found`;
+      return;
     }
 
-    // Results summary line
+    const frag = document.createDocumentFragment();
+    results.forEach(({ recipe }) => {
+      const isActive = this.activeRecipe && this.activeRecipe.id === recipe.id;
+      const isBookmarked = this.state.bookmarkedIds.has(recipe.id);
+
+      const item = document.createElement('article');
+      item.className = `catalog-item${isActive ? ' is-active' : ''}`;
+      item.dataset.recipeId = recipe.id;
+      item.tabIndex = 0;
+      item.setAttribute('role', 'button');
+      item.setAttribute('aria-label', `Select ${recipe.titleEnglish}`);
+
+      item.innerHTML = `
+        <div class="catalog-item-thumb-wrap">
+          <img class="catalog-item-thumb" src="${recipe.assets.thumb}" alt="${recipe.titleEnglish}" loading="lazy" decoding="async" />
+        </div>
+        <div class="catalog-item-info">
+          <p class="catalog-item-telugu">${recipe.titleOriginal}</p>
+          <h4 class="catalog-item-english">${recipe.titleEnglish}</h4>
+          <div class="catalog-item-meta">
+            <span class="catalog-item-badge">${recipe.badge || 'Amma’s Classic'}</span>
+            <span>⏱️ ${recipe.cookTime || '25m'}</span>
+          </div>
+        </div>
+        <button class="catalog-item-star-btn ${isBookmarked ? 'is-bookmarked' : ''}" type="button" aria-label="Star recipe">★</button>
+      `;
+
+      item.onclick = (e) => {
+        if (e.target.closest('.catalog-item-star-btn')) return;
+        this.setActiveRecipe(recipe, true);
+        this.fx.playFairyChime();
+      };
+
+      item.onkeydown = (e) => {
+        if (e.key === 'Enter' || e.key === ' ') {
+          e.preventDefault();
+          this.setActiveRecipe(recipe, true);
+          this.fx.playFairyChime();
+        }
+      };
+
+      const starBtn = item.querySelector('.catalog-item-star-btn');
+      starBtn.onclick = (e) => {
+        e.stopPropagation();
+        this.toggleBookmark(recipe.id, starBtn);
+      };
+
+      frag.appendChild(item);
+    });
+
+    this.el.catalogRecipeList.appendChild(frag);
+
     const total = results.length;
     const q = this.state.query.trim();
     if (q) {
-      this.el.resultsSummary.textContent = `${total} ${total === 1 ? 'magical poster' : 'magical posters'} discovered for “${q}”`;
-    } else if (this.state.category !== 'all') {
-      this.el.resultsSummary.textContent = `${total} heirloom recipes in this collection`;
+      this.el.catalogSummary.textContent = `${total} ${total === 1 ? 'dish matches' : 'dishes match'} “${q}”`;
     } else {
-      this.el.resultsSummary.textContent = `All ${total} illustrated Telugu family posters ready to explore`;
+      this.el.catalogSummary.textContent = `Showing ${total} heirloom recipes`;
     }
-  }
 
-  createCardElement(recipe, matchReasons, index) {
-    const wrap = document.createElement('article');
-    wrap.className = 'card-3d-wrap';
-    wrap.style.animationDelay = `${Math.min(index * 35, 300)}ms`;
-
-    const isBookmarked = this.state.bookmarkedIds.has(recipe.id);
-
-    wrap.innerHTML = `
-      <div class="recipe-card-3d" tabindex="0" role="button" aria-label="Open recipe poster for ${recipe.titleEnglish}">
-        <div class="card-foil-overlay"></div>
-        
-        <div class="card-poster-frame">
-          <img 
-            class="card-poster-img" 
-            src="${recipe.assets.thumb}" 
-            srcset="${recipe.assets.thumb} 768w, ${recipe.assets.webp} 1536w" 
-            sizes="(max-width: 768px) 100vw, 400px" 
-            alt="${recipe.titleEnglish} illustrated poster"
-            loading="lazy"
-            decoding="async"
-          />
-          <span class="card-badge-heirloom">${recipe.badge || 'Amma’s Classic'}</span>
-          <button 
-            class="card-bookmark-btn ${isBookmarked ? 'is-bookmarked' : ''}" 
-            type="button" 
-            title="Star recipe"
-            aria-label="Star ${recipe.titleEnglish}"
-          >★</button>
-        </div>
-
-        <div class="card-body-content">
-          <p class="card-original-title">${recipe.titleOriginal}</p>
-          <h3 class="card-english-title">${recipe.titleEnglish}</h3>
-          <p class="card-story-snippet">${recipe.storyNote || recipe.reasons[0] || ''}</p>
-          
-          <div class="card-meta-ribbon">
-            <span>⏱️ ${recipe.cookTime || '25 mins'}</span>
-            <span>🍲 ${recipe.steps.length} steps</span>
-            <span class="card-open-btn">Open Poster ↗</span>
-          </div>
-        </div>
-      </div>
-    `;
-
-    // Attach 3D parallax tilt & foil reflection
-    this.fx.attach3DTilt(wrap);
-
-    // Click handler for card
-    const card3d = wrap.querySelector('.recipe-card-3d');
-    card3d.onclick = (e) => {
-      if (e.target.closest('.card-bookmark-btn')) return;
-      this.openGrimoire(recipe);
-    };
-
-    // Card keyboard enter/space
-    card3d.onkeydown = (e) => {
-      if (e.key === 'Enter' || e.key === ' ') {
-        e.preventDefault();
-        this.openGrimoire(recipe);
-      }
-    };
-
-    // Bookmark button handler
-    const bookmarkBtn = wrap.querySelector('.card-bookmark-btn');
-    bookmarkBtn.onclick = (e) => {
-      e.stopPropagation();
-      this.toggleBookmark(recipe.id, bookmarkBtn);
-    };
-
-    return wrap;
+    // If currently active recipe is not in results, select the first matching result
+    const hasActive = results.some(r => this.activeRecipe && r.recipe.id === this.activeRecipe.id);
+    if (!hasActive && results.length > 0) {
+      this.setActiveRecipe(results[0].recipe, false);
+    }
   }
 
   /* --------------------------------------------------------------------------
-     The Heirloom Grimoire Modal (Full Recipe Viewer)
+     The Magic Spice Dabba (Oracle)
      -------------------------------------------------------------------------- */
-  openGrimoire(recipe) {
-    this.activeGrimoireRecipe = recipe;
+  spinSpiceBox() {
+    if (!this.recipes.length) return;
     this.fx.playFairyChime();
 
-    // Populate Titles & Poster
-    this.el.grimoireTitleTelugu.textContent = recipe.titleOriginal;
-    this.el.grimoireTitleEnglish.textContent = recipe.titleEnglish;
-    this.el.grimoirePosterImg.src = recipe.assets.webp;
-    this.el.grimoirePosterImg.alt = `${recipe.titleEnglish} full illustrated poster`;
+    const btn = this.el.spinOracleBtn;
+    btn.style.transform = 'scale(0.92) rotate(360deg)';
+    btn.disabled = true;
 
-    // Poster Download Button (links to full-res original 1536x1024 PNG)
-    this.el.grimoireWaxSealBtn.href = recipe.assets.png;
-    this.el.grimoireWaxSealBtn.download = `${recipe.slug}.png`;
+    setTimeout(() => {
+      btn.style.transform = '';
+      btn.disabled = false;
 
-    // Interactive Checklist
-    this.renderChecklist(recipe, 1);
+      // Pick a random recipe
+      const picked = this.recipes[Math.floor(Math.random() * this.recipes.length)];
+      this.setActiveRecipe(picked, true);
 
-    // Process Steps
-    this.el.grimoireStepsList.replaceChildren(
-      ...recipe.steps.map((step, idx) => {
-        const li = document.createElement('li');
-        li.style.marginBottom = '16px';
-        li.innerHTML = `<strong>Step ${idx + 1}:</strong> ${step}`;
-        return li;
-      })
-    );
+      this.fx.playStarChime();
+      this.fx.showToast(`✨ Amma’s Spice Dabba selected ${picked.titleEnglish}!`);
+    }, 500);
+  }
 
-    // Reasons / Notes
-    this.el.grimoireReasonsList.replaceChildren(
-      ...recipe.reasons.map(r => {
-        const li = document.createElement('li');
-        li.textContent = r;
-        return li;
-      })
-    );
-
-    // Tips
-    if (recipe.tips && recipe.tips.length) {
-      this.el.grimoireTipsWrap.hidden = false;
-      this.el.grimoireTipsList.replaceChildren(
-        ...recipe.tips.map(tip => {
-          const li = document.createElement('li');
-          li.textContent = tip;
-          return li;
-        })
-      );
+  /* --------------------------------------------------------------------------
+     Bookmarks / Favorites
+     -------------------------------------------------------------------------- */
+  toggleBookmark(recipeId, buttonEl) {
+    const has = this.state.bookmarkedIds.has(recipeId);
+    if (has) {
+      this.state.bookmarkedIds.delete(recipeId);
+      if (buttonEl) buttonEl.classList.remove('is-bookmarked');
+      this.fx.showToast('Removed from Starred Recipes');
     } else {
-      this.el.grimoireTipsWrap.hidden = true;
+      this.state.bookmarkedIds.add(recipeId);
+      if (buttonEl) buttonEl.classList.add('is-bookmarked');
+      this.fx.playStarChime();
+      this.fx.showToast('★ Saved to Amma’s Starred Dishes!');
+    }
+    localStorage.setItem('amma_bookmarks', JSON.stringify(Array.from(this.state.bookmarkedIds)));
+    this.updateBookmarkBadge();
+    
+    // Refresh Stage bookmark star if active recipe
+    if (this.activeRecipe && this.activeRecipe.id === recipeId && this.el.stageBookmarkBtn) {
+      this.el.stageBookmarkBtn.classList.toggle('is-bookmarked', !has);
+    }
+  }
+
+  updateBookmarkBadge() {
+    const count = this.state.bookmarkedIds.size;
+    if (this.el.bookmarkCountBadge) {
+      this.el.bookmarkCountBadge.textContent = count;
+      this.el.bookmarkCountBadge.style.display = count > 0 ? 'inline-block' : 'none';
+    }
+  }
+
+  /* --------------------------------------------------------------------------
+     Mobile View Switcher (Catalog vs Recipe Stage)
+     -------------------------------------------------------------------------- */
+  setMobileView(viewName) {
+    this.state.mobileView = viewName;
+    if (this.el.mobileCatalogTabBtn) {
+      this.el.mobileCatalogTabBtn.classList.toggle('is-active', viewName === 'catalog');
+    }
+    if (this.el.mobileStageTabBtn) {
+      this.el.mobileStageTabBtn.classList.toggle('is-active', viewName === 'stage');
     }
 
-    // Nutrition
-    this.el.grimoireNutritionNote.textContent = recipe.nutrition || 'Wholesome homestyle preparation.';
-
-    // Reset tabs to Tab 1 (Poster Art)
-    this.switchGrimoireTab('posterTab');
-
-    // Show modal
-    this.el.grimoireBackdrop.classList.add('is-open');
-    document.body.style.overflow = 'hidden';
+    if (viewName === 'catalog') {
+      this.el.catalogSidebar.classList.remove('is-hidden-mobile');
+      this.el.recipeStage.classList.add('is-hidden-mobile');
+    } else {
+      this.el.catalogSidebar.classList.add('is-hidden-mobile');
+      this.el.recipeStage.classList.remove('is-hidden-mobile');
+    }
   }
 
-  closeGrimoire() {
-    this.el.grimoireBackdrop.classList.remove('is-open');
-    document.body.style.overflow = '';
-  }
-
-  renderChecklist(recipe, multiplier) {
-    const allItems = recipe.ingredientGroups.flatMap(g => g.items);
-    this.el.grimoireChecklist.replaceChildren(
-      ...allItems.map(item => {
-        const div = document.createElement('div');
-        div.className = 'checklist-item';
-        div.innerHTML = `
-          <span class="checklist-box">✓</span>
-          <span class="checklist-name">${item}</span>
-        `;
-        div.onclick = () => {
-          div.classList.toggle('is-checked');
-          this.fx.playPageFlip();
-        };
-        return div;
-      })
-    );
-  }
-
-  switchGrimoireTab(tabId) {
-    this.el.grimoireTabBtns.forEach(btn => {
-      const isTarget = btn.dataset.tab === tabId;
-      btn.classList.toggle('is-active', isTarget);
+  switchStageTab(tabId) {
+    this.el.stageTabBtns.forEach(btn => {
+      btn.classList.toggle('is-active', btn.dataset.tab === tabId);
     });
-    this.el.grimoireTabPanes.forEach(pane => {
+    this.el.stagePanes.forEach(pane => {
       pane.classList.toggle('is-active', pane.id === tabId);
     });
     this.fx.playPageFlip();
   }
 
-  resetAllFilters() {
+  resetFilters() {
     this.state.query = '';
     this.state.category = 'all';
     this.state.flavor = 'all';
     this.state.sort = 'featured';
     if (this.el.searchInput) this.el.searchInput.value = '';
     if (this.el.clearSearchBtn) this.el.clearSearchBtn.hidden = true;
-    if (this.el.sortSelect) this.el.sortSelect.value = 'featured';
     this.renderCategoryRibbon();
-    this.renderRecipes();
+    this.renderCatalogList();
   }
 
   /* --------------------------------------------------------------------------
      Event Listeners
      -------------------------------------------------------------------------- */
   attachEventListeners() {
-    // Theme Switcher
+    // Theme Select
     if (this.el.themeSelect) {
       this.el.themeSelect.addEventListener('change', () => {
         this.applyTheme(this.el.themeSelect.value);
@@ -468,7 +488,7 @@ class AmmaApp {
       });
     }
 
-    // Bookmark Filter Toggle
+    // Starred Dish Filter Toggle
     if (this.el.bookmarkFilterBtn) {
       this.el.bookmarkFilterBtn.addEventListener('click', () => {
         if (this.state.sort === 'favorites') {
@@ -478,35 +498,28 @@ class AmmaApp {
           this.state.sort = 'favorites';
           this.el.bookmarkFilterBtn.classList.add('is-active');
         }
-        this.renderRecipes();
+        this.renderCatalogList();
         this.fx.playStarChime();
       });
     }
 
-    // Spice Dabba Oracle
-    if (this.el.spinOracleBtn) {
-      this.el.spinOracleBtn.addEventListener('click', () => this.spinSpiceBox());
+    // Mobile View Tab Buttons
+    if (this.el.mobileCatalogTabBtn) {
+      this.el.mobileCatalogTabBtn.addEventListener('click', () => this.setMobileView('catalog'));
     }
-
-    // Craving Spell Chips
-    document.querySelectorAll('[data-craving]').forEach(chip => {
-      chip.addEventListener('click', () => {
-        const query = chip.dataset.craving;
-        this.state.query = query;
-        this.el.searchInput.value = query;
-        this.el.clearSearchBtn.hidden = false;
-        this.renderRecipes();
-        this.fx.playFairyChime();
-        document.getElementById('gallerySection')?.scrollIntoView({ behavior: 'smooth' });
-      });
-    });
+    if (this.el.mobileStageTabBtn) {
+      this.el.mobileStageTabBtn.addEventListener('click', () => this.setMobileView('stage'));
+    }
+    if (this.el.mobileBackBtn) {
+      this.el.mobileBackBtn.addEventListener('click', () => this.setMobileView('catalog'));
+    }
 
     // Search Input
     if (this.el.searchInput) {
       this.el.searchInput.addEventListener('input', () => {
         this.state.query = this.el.searchInput.value;
         this.el.clearSearchBtn.hidden = !this.state.query.trim();
-        this.renderRecipes();
+        this.renderCatalogList();
       });
     }
 
@@ -515,90 +528,69 @@ class AmmaApp {
         this.el.searchInput.value = '';
         this.state.query = '';
         this.el.clearSearchBtn.hidden = true;
-        this.renderRecipes();
+        this.renderCatalogList();
         this.el.searchInput.focus();
       });
     }
 
-    // Flavor Tag Buttons
-    document.querySelectorAll('[data-flavor]').forEach(btn => {
-      btn.addEventListener('click', () => {
-        const f = btn.dataset.flavor;
-        this.state.flavor = this.state.flavor === f ? 'all' : f;
-        document.querySelectorAll('[data-flavor]').forEach(b => {
-          b.classList.toggle('is-active', b.dataset.flavor === this.state.flavor);
-        });
-        this.renderRecipes();
-        this.fx.playPageFlip();
+    // Craving Spell Buttons
+    document.querySelectorAll('[data-craving]').forEach(chip => {
+      chip.addEventListener('click', () => {
+        const query = chip.dataset.craving;
+        this.state.query = query;
+        this.el.searchInput.value = query;
+        this.el.clearSearchBtn.hidden = false;
+        this.renderCatalogList();
+        this.fx.playFairyChime();
       });
     });
 
-    // Sort Dropdown
-    if (this.el.sortSelect) {
-      this.el.sortSelect.addEventListener('change', () => {
-        this.state.sort = this.el.sortSelect.value;
-        this.renderRecipes();
-      });
+    // Spin Spice Box
+    if (this.el.spinOracleBtn) {
+      this.el.spinOracleBtn.addEventListener('click', () => this.spinSpiceBox());
     }
 
-    // Density Toggle (Spacious / Compact)
-    if (this.el.densityToggleBtn) {
-      this.el.densityToggleBtn.addEventListener('click', () => {
-        this.state.isCompact = !this.state.isCompact;
-        localStorage.setItem('amma_compact', String(this.state.isCompact));
-        this.el.recipeGrid.classList.toggle('is-compact', this.state.isCompact);
-        this.el.densityToggleBtn.title = this.state.isCompact ? 'Spacious view' : 'Compact view';
-        this.fx.playPageFlip();
-      });
-    }
-
-    // Grimoire Modal Tabs
-    this.el.grimoireTabBtns.forEach(btn => {
-      btn.addEventListener('click', () => this.switchGrimoireTab(btn.dataset.tab));
+    // Stage Tabs
+    this.el.stageTabBtns.forEach(btn => {
+      btn.addEventListener('click', () => this.switchStageTab(btn.dataset.tab));
     });
 
-    // Grimoire Close
-    if (this.el.grimoireCloseBtn) {
-      this.el.grimoireCloseBtn.addEventListener('click', () => this.closeGrimoire());
-    }
-
-    if (this.el.grimoireBackdrop) {
-      this.el.grimoireBackdrop.addEventListener('click', (e) => {
-        if (e.target === this.el.grimoireBackdrop) this.closeGrimoire();
-      });
-    }
-
-    // Launch Cook Mode from Grimoire
-    if (this.el.startCookModeFromModalBtn) {
-      this.el.startCookModeFromModalBtn.addEventListener('click', () => {
-        if (this.activeGrimoireRecipe) {
-          this.closeGrimoire();
-          this.cookMode.open(this.activeGrimoireRecipe);
+    // Stage Bookmark Button
+    if (this.el.stageBookmarkBtn) {
+      this.el.stageBookmarkBtn.addEventListener('click', () => {
+        if (this.activeRecipe) {
+          this.toggleBookmark(this.activeRecipe.id, this.el.stageBookmarkBtn);
+          this.renderCatalogList();
         }
       });
     }
 
-    // Potion / Servings Scaler Buttons (1x, 2x, 4x)
+    // Stage Cook Mode Launcher
+    if (this.el.stageCookModeBtn) {
+      this.el.stageCookModeBtn.addEventListener('click', () => {
+        if (this.activeRecipe) {
+          this.cookMode.open(this.activeRecipe);
+        }
+      });
+    }
+
+    // Potion / Servings Scaler Buttons
     this.el.scaleBtns.forEach(btn => {
       btn.addEventListener('click', () => {
         this.el.scaleBtns.forEach(b => b.classList.remove('is-active'));
         btn.classList.add('is-active');
-        const factor = Number(btn.dataset.scale || 1);
-        if (this.activeGrimoireRecipe) {
-          this.renderChecklist(this.activeGrimoireRecipe, factor);
-        }
+        this.portionMultiplier = Number(btn.dataset.scale || 1);
+        this.renderChecklist();
+        this.fx.playPageFlip();
       });
     });
 
-    // Global Keybindings
+    // Keyboard Shortcuts
     document.addEventListener('keydown', (e) => {
       const activeTag = document.activeElement?.tagName;
       if (e.key === '/' && activeTag !== 'INPUT' && activeTag !== 'TEXTAREA') {
         e.preventDefault();
         this.el.searchInput?.focus();
-      }
-      if (e.key === 'Escape' && this.el.grimoireBackdrop?.classList.contains('is-open')) {
-        this.closeGrimoire();
       }
     });
   }
