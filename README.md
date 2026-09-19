@@ -1,4 +1,4 @@
-# Amma’s Table — The Living Telugu Recipe Storybook 🍲✨
+# Granny’s Table — The Living Telugu Recipe Storybook 🍲✨
 
 An enchanted, Disney/Pixar-caliber interactive gallery of 24 beloved Telugu family recipe posters, featuring **10x faster performance**, an **intelligent culinary search engine**, **living 3D card tilt**, and **Amma’s interactive counter cook mode**.
 
@@ -85,4 +85,4 @@ Then open <http://localhost:4173> in your browser.
 
 ## 🌐 Publish on GitHub Pages
 
-The repository includes a ready-to-use GitHub Actions workflow in `.github/workflows/pages.yml`. Simply push to the `main` branch, and GitHub Pages will deploy automatically.
+https://siddhu-123.github.io/recipe-app/#vankaya-kura
