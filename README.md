@@ -2,6 +2,15 @@
 
 An enchanted, Disney/Pixar-caliber interactive gallery of 24 beloved Telugu family recipe posters, featuring **10x faster performance**, an **intelligent culinary search engine**, **living 3D card tilt**, and **Amma’s interactive counter cook mode**.
 
+
+[**Live gallery**](https://siddhu-123.github.io/recipe-app/) · [Features](#-what-makes-ammas-table-magical) · [Run locally](#-running-locally)
+
+![Amma's Table gallery](docs/screenshots/gallery.png)
+
+<p align="center"><img src="docs/screenshots/mobile.png" alt="Mobile view" width="260"></p>
+
+> **About the recipes.** The recipes come from my grandmother's spoken Telugu recordings, transcribed and turned into posters. Each poster marks material that is a web-based supplement rather than from the source recording. The set has not been fully audited against the transcripts yet: two posters (`tomato-dal`, `tomato-mixed-vegetable-curry`) show a "Why you'll love" panel that describes plantain dishes, and some quantities, timings and nutrition figures are estimates that the recordings do not state.
+
 ---
 
 ## 🌟 What Makes Amma's Table Magical
@@ -85,4 +94,8 @@ Then open <http://localhost:4173> in your browser.
 
 ## 🌐 Publish on GitHub Pages
 
-https://siddhu-123.github.io/recipe-app/#vankaya-kura
+The workflow in `.github/workflows/pages.yml` deploys the site on every push to `main`. In the repository settings, set **Pages → Source** to **GitHub Actions**. The gallery then lives at <https://siddhu-123.github.io/recipe-app/> and each recipe can be opened directly, for example <https://siddhu-123.github.io/recipe-app/#vankaya-kura>.
+
+## 📜 License
+
+The site code is released under the [MIT License](LICENSE). The recipes, recordings and poster artwork are my family's and are shared here for viewing; they are not covered by the MIT licence, so please ask before reusing them.
